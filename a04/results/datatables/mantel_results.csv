@@ -1,0 +1,12 @@
+Test,Type,r,p_value,n_permutations,significant
+Disease vs Mechanism,Simple Mantel,0.4258347016967706,0.03194444444444444,40320,True
+Disease vs Surface Somatotopic,Simple Mantel,-0.025725232621784347,0.5218501984126984,40320,False
+Mechanism vs Surface Somatotopic,Simple Mantel,0.2019704433497537,0.19933035714285716,40320,False
+Disease vs Segmental Somatotopic,Simple Mantel,0.008216929643299974,0.4129960317460317,40320,False
+Mechanism vs Segmental Somatotopic,Simple Mantel,-0.12133666106606293,0.687921626984127,40320,False
+Disease vs Mechanism | Surface Somatotopic,Partial Mantel,0.4258347016967706,0.03249007936507937,40320,True
+Disease vs Surface Somatotopic | Mechanism,Partial Mantel,-0.10180623973727422,0.6645585317460317,40320,False
+Mechanism vs Surface Somatotopic | Disease,Partial Mantel,0.11220580186097427,0.29345238095238096,40320,False
+Disease vs Mechanism | Segmental Somatotopic,Partial Mantel,0.3875205254515599,0.047271825396825395,40320,True
+Disease vs Segmental Somatotopic | Mechanism,Partial Mantel,0.1258894362342638,0.21478174603174602,40320,False
+Mechanism vs Segmental Somatotopic | Disease,Partial Mantel,-0.21729611384783798,0.8898065476190476,40320,False

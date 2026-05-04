@@ -1,0 +1,9 @@
+Site,Addiction,Cancer/Oncology,Cardiovascular,Dermatological,Gastrointestinal,Immune/Inflammatory,Metabolic/Endocrine,Musculoskeletal,Neurological,Pain,Psychiatric,Renal/Urological,Reproductive,Respiratory
+BL25,0,0,0,0,15,0,1,2,0,4,0,0,0,0
+GV4,0,0,0,0,0,0,3,0,29,0,1,0,0,0
+ST25,0,0,1,0,47,2,20,0,9,9,1,0,0,0
+CV12,0,0,1,0,14,1,24,0,19,3,4,0,2,0
+PC6,7,0,71,0,12,4,5,0,54,8,14,2,2,1
+LI4,1,0,3,7,2,6,7,7,48,17,13,0,1,2
+SP6,16,1,1,2,9,11,49,10,50,78,23,3,37,1
+ST36,30,7,40,10,149,57,94,82,284,316,32,6,24,34

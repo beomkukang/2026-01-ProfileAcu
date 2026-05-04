@@ -1,0 +1,17 @@
+[project]
+name = "profile-acu"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas",
+    "openpyxl",
+    "numpy",
+    "scipy",
+    "scikit-learn",
+    "matplotlib",
+    "seaborn",
+    "python-docx>=1.2.0",
+]
+
+[tool.uv]
+dev-dependencies = []

@@ -1,0 +1,7 @@
+analysis,condition,mantel_r,p_value,ci_lower,ci_upper,interpretation
+Leave-one-out,Min r across exclusions,0.3116883116883117,0.1618381618381618,,,Stable
+Bootstrap,95% CI,0.3715851122058018,,0.1674740010946907,0.577463054187192,Significant
+Subsample (n=22),16% significant,0.20638309808869346,0.18316831683168316,,,Sensitive to sample size
+Coordinate perturbation,Somat-Disease (0% sig),-0.009840175150519976,0.495049504950495,,,Sensitive to coordinates
+Other category inclusion,Other included,0.4258347016967706,0.0335966403359664,,,Stable
+Publication collapse,Collapsed,0.4258347016967706,0.0335966403359664,,,Stable

@@ -1,0 +1,716 @@
+disease_string,matched_keyword,level_1,level_2,level_3,level_4,level_5,level_6,level_7
+Sciatic Neuropathic Pain in Lumbar Disc Herniation (LDH),pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+Ankylosing spondylitis (AS),ankylosing spondylitis,Other,Other,Musculoskeletal,Musculoskeletal,Musculoskeletal,Musculoskeletal,Musculoskeletal
+Irritable bowel syndrome (IBS),IBS,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+Inflammatory bowel disease (IBD) (TNBS-induced),inflammatory bowel,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+Diarrhoeal Irritable Bowel Syndrome (IBS-D) accompanied by negative emotions,IBS,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+Intestinal motility disorders,intestin,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+Chronic Intervertebral Disc Degeneration (IVDD),intervertebral disc,Other,Other,Musculoskeletal,Musculoskeletal,Musculoskeletal,Musculoskeletal,Musculoskeletal
+Inflammatory bowel disease (IBD) caused by high-fat diet (HFD)-induced obesity,inflammatory bowel,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+Colitis (DSS-induced),colitis,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+constipation,constipation,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+IBS-D,IBS,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+Inflammatory bowel disease (IBD),inflammatory bowel,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+Visceral pain,pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+Diarrhoea,diarrhoe,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+Neuropathic pain,pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+Functional diarrhea,diarrhea,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+Hyperglycaemia,hyperglycaemia,Other,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine
+Gastrointestinal motility disorders,intestin,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+PTSD-like behaviors,PTSD,Other,Psychiatric,Psychiatric,Psychiatric,Psychiatric,Psychiatric,Psychiatric
+Cognitive Impairment after Spinal Cord Injury (SCI),spinal cord injury,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Vascular dementia (VD),dementia,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Spinal cord injury (SCI),spinal cord injury,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Cerebral ischemia-reperfusion injury (MCAO/R model),cerebral isch,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Spinal cord injury (SCI)-induced motor dysfunction,spinal cord injury,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Parkinson's disease (PD),parkinson,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Depression in Parkinson's disease (DPD),parkinson,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Spinal cord injury,spinal cord injury,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Cerebral infarction,cerebral infarction,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Osteopenia,osteopenia,Other,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine
+Stroke,stroke,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Osteoporosis,osteoporosis,Other,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine
+Peripheral nerve injury,peripheral nerve,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Postmenopausal Osteoporosis,osteoporosis,Other,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine
+Inflammatory bowel disease (IBD) with comorbid depression,inflammatory bowel,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+diabetic peripheral neuropathy,neuropathy,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Functional Constipation (FC),constipation,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+Ulcerative colitis (UC),colitis,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+type 2 diabetes mellitus (T2DM),diabetes,Other,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine
+Diarrhea-predominant irritable bowel syndrome (IBS-D),IBS,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+Postoperative ileus (POI),POI,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+Obesity (high-fat diet (HFD)-induced),obesity,Other,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine
+inflammatory bowel disease (IBD) accompanied by depressive symptoms,inflammatory bowel,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+Acute myocardial infarction (AMI),myocardial,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular
+Depressive-like behavior (chronic unpredictable mild stress),stress,Other,Psychiatric,Psychiatric,Psychiatric,Psychiatric,Psychiatric,Psychiatric
+Obesity,obesity,Other,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine
+Cognitive impairment induced by long-term high-fat diet,cognitive impairment,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Chronic visceral pain in irritable bowel syndrome (IBS),pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+"Post-infectious irritable bowel syndrome (PI-IBS), visceral hypersensitivity",visceral hypersensitivity,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+Alzheimer's disease (AD),alzheimer,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Parkinson's disease constipation,parkinson,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Parkinson's disease,parkinson,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+HFD-induced obesity,obesity,Other,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine
+Obese type 2 diabetes mellitus (T2DM),diabetes,Other,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine
+sepsis,sepsis,Other,Other,Other,Immune/Inflammatory,Immune/Inflammatory,Immune/Inflammatory,Immune/Inflammatory
+Ulcerative Colitis,colitis,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+irritable bowel syndrome with diarrhea (IBS-D),irritable bowel,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+Diabetes,diabetes,Other,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine
+IBS,IBS,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+Parkinson disease,parkinson,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Neuropathy,neuropathy,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Visceral Hypersensitivity,visceral hypersensitivity,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+Inflammation,inflammation,Other,Other,Other,Immune/Inflammatory,Immune/Inflammatory,Immune/Inflammatory,Immune/Inflammatory
+chronic visceral pain,pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+Irritable bowel syndrome,irritable bowel,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+Visceral hyperalgesia,hyperalgesia,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+Jejunal motility disorders,jejun,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+Gastric motility,gastric,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+Gastrointestinal disorders,intestin,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+Pancreatitis,pancreatitis,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+Acute pancreatitis,pancreatitis,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+Type-2 diabetes mellitus,diabetes,Other,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine
+Chronic visceral hypersensitivity,visceral hypersensitivity,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+Gastric mucosal damage,gastric,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+Insomnia (PCPA-induced),insomnia,Other,Psychiatric,Psychiatric,Psychiatric,Psychiatric,Psychiatric,Psychiatric
+"Obesity, insulin resistance (HFD-induced)",insulin,Other,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine
+Diabetic Kidney Disease (DKD),diabetic,Other,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine
+Autism Spectrum Disorder (ASD),autism,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Depression with gastric dysfunction,depression,Other,Psychiatric,Psychiatric,Psychiatric,Psychiatric,Psychiatric,Psychiatric
+Diminished Ovarian Reserve (DOR),ovarian,Other,Other,Reproductive,Reproductive,Reproductive,Reproductive,Reproductive
+Gastric Ulcer (GU),gastric,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+Gastric motility disorder (GMD),gastric,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+Functional Dyspepsia (FD),dyspepsia,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+Sepsis-related intestinal injury (CLP model),intestin,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+CVD,CVD,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular
+Paclitaxel-induced allodynia (neuropathic pain),pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+Neurological disorder,neurological disorder,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+diminished ovarian reserve,ovarian,Other,Other,Reproductive,Reproductive,Reproductive,Reproductive,Reproductive
+type 2 diabetes mellitus,diabetes,Other,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine
+functional dyspepsia,dyspepsia,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+dementia,dementia,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Depression,depression,Other,Psychiatric,Psychiatric,Psychiatric,Psychiatric,Psychiatric,Psychiatric
+gastric ulcer,gastric,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+Alzheimer's disease,alzheimer,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+insulin resistant,insulin,Other,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine
+Gastritis,gastritis,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+anorexia,anorexia,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+Parasite infection,parasite infection,Other,Other,Other,Immune/Inflammatory,Immune/Inflammatory,Immune/Inflammatory,Immune/Inflammatory
+Gastroparesis,gastroparesis,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+Nausea and Vomiting,nausea,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+Gastroenteric disease,gastroenteric,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+Diabetes mellitus,diabetes,Other,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine
+Metabolic syndrome,metabolic syndrome,Other,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine
+Type-2 diabetes,diabetes,Other,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine
+Vascular dementia,dementia,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Cognitive deficit,cognitive deficit,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Oxidative stress,stress,Other,Psychiatric,Psychiatric,Psychiatric,Psychiatric,Psychiatric,Psychiatric
+Hyperglycemia,hyperglycemia,Other,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine
+Pain,pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+Neurodegenerative diseases,neurodegenerat,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Benign Prostatic Hyperplasia (BPH),prostatic hyperplasia,Other,Other,Reproductive,Reproductive,Reproductive,Reproductive,Reproductive
+Diabetic cardiomyopathy (DCM),cardiomyopathy,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular
+Myocardial ischemia-reperfusion injury (MIRI),ischemia-reperfusion,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Middle cerebral artery occlusion-induced learning and memory impairment (ischemic stroke),,Other,Other,Other,Other,Other,Other,Other
+Lipid metabolic disorder,lipid metabolic disorder,Other,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine
+Ischemic Stroke (MCAO/R model),stroke,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+asphyxial cardiac arrest and cardiopulmonary resuscitation (ACA/CPR),cardiac,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular
+Postoperative cognitive dysfunction,cognitive dysfunction,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+"doxorubicin-induced heart failure (HF), Dilated cardiomyopathy (DCM)",heart,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular
+Hemorrhagic transformation (HT) after delayed rt-PA treatment for acute ischemic stroke,stroke,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Cerebral Small Vessel Disease (CSVD),vessel disease,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular
+Embolic stroke with delayed rt-PA thrombolysis,stroke,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Cerebral ischemia-reperfusion injury (MCAO/R),cerebral isch,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Cerebral Ischemia-Reperfusion Injury (CIRI),cerebral isch,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+CUMS-induced depression and constipation,depression,Other,Psychiatric,Psychiatric,Psychiatric,Psychiatric,Psychiatric,Psychiatric
+Middle Cerebral Artery Occlusion (MCAO) (stroke-induced brain injury),stroke,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Median Nerve Transection (Peripheral Nerve Injury),peripheral nerve,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+myocardial fibrosis (MF),myocardial,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular
+Inflammatory pain,pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+Sleep deprivation-exacerbated post-cardiac arrest brain injury (PCABI),brain injury,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Ischemic stroke (MCAO),stroke,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Acute Ischemic Stroke (AIS),stroke,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Acute ischemic stroke (MCAO model),stroke,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Paroxysmal Atrial Fibrillation (AF),atrial fibrillation,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular
+Olfactory bulbectomy (OBx) depression model,depression,Other,Psychiatric,Psychiatric,Psychiatric,Psychiatric,Psychiatric,Psychiatric
+Chronic ischemic white matter injury,white matter injury,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Carfilzomib-induced cardiotoxicity,cardio,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular
+Myocardial ischemia reperfusion arrhythmia (RA),ischemia reperfusion,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Stress-induced tachycardia,stress,Other,Psychiatric,Psychiatric,Psychiatric,Psychiatric,Psychiatric,Psychiatric
+Cerebral Ischaemia-Reperfusion Injury (CIRI),cerebral isch,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Traumatic brain injury (TBI),brain injury,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Perioperative neurocognitive disorder (PND),neurocognitive disorder,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Ischemic stroke (MCAO/R),stroke,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Post-stroke cognitive impairment (PSCI),stroke,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+"Hypertension (SHR hypertension), hypertensive cardiac damage",cardiac,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular
+Myocardial Infarction (MI),myocardial,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular
+Focal cerebral ischaemia,cerebral isch,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Chronic heart failure (CHF),heart,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular
+Acute ischemic stroke,stroke,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Sepsis-induced cardiac dysfunction,cardiac,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular
+hypertension,hypertension,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular
+Focal cerebral ischemia-reperfusion injury (CIRI),cerebral isch,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Myocardial ischemia,myocardial,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular
+"Anesthesia/surgery-induced cognitive decline, postoperative cognitive dysfunction (POCD)",cognitive dysfunction,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+stress-induced cardiovascular disease,vascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular
+Insomnia (liver-Qi stagnation pattern),liver,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+vasodepression and bradycardia,depression,Other,Psychiatric,Psychiatric,Psychiatric,Psychiatric,Psychiatric,Psychiatric
+Postoperative cognitive dysfunction (POCD),cognitive dysfunction,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Angina pectoris,angina,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular
+myocardial infarction,myocardial,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular
+cardiac arrest,cardiac,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular
+Myocardial fibrosis,myocardial,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular
+polycystic ovary syndrome,polycystic ovary,Other,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine
+incisional pain,pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+ischemic stroke,stroke,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+atrial fibrillation,atrial fibrillation,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular
+opioid tolerance,opioid tolerance,Other,Other,Other,Other,Other,Addiction,Addiction
+Surgery induced immunosuppression,immunosuppress,Other,Other,Other,Immune/Inflammatory,Immune/Inflammatory,Immune/Inflammatory,Immune/Inflammatory
+cardiotoxicity,cardio,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular
+Postoperative pain,pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+cerebral ischemia,cerebral isch,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+cognitive dysfunction,cognitive dysfunction,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+myocardial ischemia reperfusion injury (MIRI),ischemia reperfusion,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Polycystic ovarian syndrome (PCOS),PCOS,Other,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine
+Ischemia Reperfusion Injury,ischemia reperfusion,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Diabetic Cardiomyopathy,cardiomyopathy,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular
+myocardial injury,myocardial,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular
+Aging,aging,Other,Other,Other,Immune/Inflammatory,Immune/Inflammatory,Immune/Inflammatory,Immune/Inflammatory
+cerebral hemorrhage,cerebral hemorrhage,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Nicotine dependence,nicotine,Other,Other,Other,Other,Other,Addiction,Addiction
+Ileus,ileus,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+Cardiac hypertrophy,cardiac,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular
+nervous discharge,nervous discharge,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Ischemic heart disease,heart,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular
+ovarian hyperstimulation,ovarian,Other,Other,Reproductive,Reproductive,Reproductive,Reproductive,Reproductive
+motion sickness,motion sickness,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+insulin-resistant,insulin,Other,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine
+"stroke, neurological deficits",stroke,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Myocardial Infarction Injury,myocardial,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular
+Myocardial apotopsis,myocardial,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular
+Stress-related mental disorders,stress,Other,Psychiatric,Psychiatric,Psychiatric,Psychiatric,Psychiatric,Psychiatric
+anxiety,anxiety,Other,Psychiatric,Psychiatric,Psychiatric,Psychiatric,Psychiatric,Psychiatric
+Lung injury,lung injury,Other,Other,Other,Respiratory,Respiratory,Respiratory,Respiratory
+"Hypertension, Myocardial hypertrophy",myocardial,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular
+OT-induced cardiac disease,cardiac,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular
+Anaesthetic cardiotoxicity,cardio,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular
+Chemotherapy-Induced Delayed Emesis,emesis,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+Addiction,addiction,Other,Other,Other,Other,Other,Addiction,Addiction
+Acute kidney injury,kidney,Other,Other,Other,Other,Renal/Urological,Renal/Urological,Renal/Urological
+Chronic heart failure,heart,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular
+colitis,colitis,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+QT interval prolongation,QT interval,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular
+Cardiovascular disease,vascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular
+Drug addiction,addiction,Other,Other,Other,Other,Other,Addiction,Addiction
+Kidney injury,kidney,Other,Other,Other,Other,Renal/Urological,Renal/Urological,Renal/Urological
+Liver injury,liver,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+Stress-related pathological disorders,stress,Other,Psychiatric,Psychiatric,Psychiatric,Psychiatric,Psychiatric,Psychiatric
+Ethanol addiction,addiction,Other,Other,Other,Other,Other,Addiction,Addiction
+Acute cerebral infarction,cerebral infarction,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Coronary heart disease,heart,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular
+Ventricular tachyarrhythmias,arrhythmia,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular
+Depression-like behaviors (induced by early chronic sleep deprivation),depression,Other,Psychiatric,Psychiatric,Psychiatric,Psychiatric,Psychiatric,Psychiatric
+Atopic dermatitis (AD),dermatitis,Other,Other,Other,Other,Dermatological,Dermatological,Dermatological
+Chronic Inflammatory Pain with Depression (CIPD),pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+Knee osteoarthritis (KOA),arthritis,Other,Other,Musculoskeletal,Musculoskeletal,Musculoskeletal,Musculoskeletal,Musculoskeletal
+Facial Nerve Injury (FNI),nerve injury,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Glycolipid metabolism disorders in NAFLD/Type 2 diabetes mellitus (T2DM),NAFLD,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+Post-stroke depression (PSD) induced by middle cerebral artery occlusion (MCAO) and chronic unpredictable mild stress (CUMS),stroke,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Diabetic cognitive impairment (DCI),cognitive impairment,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+neuroinflammation,neuroinflammation,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+brain injury,brain injury,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+intestinal disease,intestin,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+Retinal ischemia-reperfusion injury (RIRI),ischemia-reperfusion,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Cervical spondylotic radiculopathy (CSR),cervical spondyl,Other,Other,Musculoskeletal,Musculoskeletal,Musculoskeletal,Musculoskeletal,Musculoskeletal
+Chronic inflammatory pain and depression comorbidity,pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+Persistent dental pain induced by multiple dental pulp injuries,pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+Chemotherapy-Induced Salivary Gland Hypofunction (Xerostomia),ALI,Other,Other,Other,Respiratory,Respiratory,Respiratory,Respiratory
+Type 2 Diabetes Mellitus (db/db mice model),diabetes,Other,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine
+Traumatic brain injury,brain injury,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+burn,burn,Other,Other,Other,Other,Dermatological,Dermatological,Dermatological
+itch,itch,Other,Other,Other,Other,Dermatological,Dermatological,Dermatological
+analgesia,analges,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+Periodontitis,periodontitis,Other,Other,Other,Immune/Inflammatory,Immune/Inflammatory,Immune/Inflammatory,Immune/Inflammatory
+cocaine reinstatement,cocaine,Other,Other,Other,Other,Other,Addiction,Addiction
+cerebral ischemia/reperfusion (I/R) injury,cerebral isch,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+respiratory distress,stress,Other,Psychiatric,Psychiatric,Psychiatric,Psychiatric,Psychiatric,Psychiatric
+labor pain,pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+pulpitis,pulpitis,Other,Other,Other,Immune/Inflammatory,Immune/Inflammatory,Immune/Inflammatory,Immune/Inflammatory
+fractures,fracture,Other,Other,Musculoskeletal,Musculoskeletal,Musculoskeletal,Musculoskeletal,Musculoskeletal
+premature ovarian failure,ovarian,Other,Other,Reproductive,Reproductive,Reproductive,Reproductive,Reproductive
+bone loss,bone loss,Other,Other,Musculoskeletal,Musculoskeletal,Musculoskeletal,Musculoskeletal,Musculoskeletal
+labour pain,pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+cerebral ischemia/reperfusion injury,cerebral isch,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Ischemia,,Other,Other,Other,Other,Other,Other,Other
+Major depressive disorder,major depressive,Other,Psychiatric,Psychiatric,Psychiatric,Psychiatric,Psychiatric,Psychiatric
+neuronal apoptosis,neuronal apoptosis,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Itching,itch,Other,Other,Other,Other,Dermatological,Dermatological,Dermatological
+Brachial plexus injury,brachial plexus,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Facial nerve palsy(FNP),ALS,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Pruritus,pruritus,Other,Other,Other,Other,Dermatological,Dermatological,Dermatological
+Inflammatory injury,inflammatory injury,Other,Other,Other,Immune/Inflammatory,Immune/Inflammatory,Immune/Inflammatory,Immune/Inflammatory
+Arthritis,arthritis,Other,Other,Musculoskeletal,Musculoskeletal,Musculoskeletal,Musculoskeletal,Musculoskeletal
+Ankle sprain pain,pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+Excessive dopamine release,dopamine release,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Orofacial pain,pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+PCPA-induced insomnia,insomnia,Other,Psychiatric,Psychiatric,Psychiatric,Psychiatric,Psychiatric,Psychiatric
+Experimental autoimmune thyroiditis (EAT),thyroid,Other,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine
+Poor Ovarian Response (POR),ovarian,Other,Other,Reproductive,Reproductive,Reproductive,Reproductive,Reproductive
+Chronic sleep deprivation (CSD)-induced insomnia,insomnia,Other,Psychiatric,Psychiatric,Psychiatric,Psychiatric,Psychiatric,Psychiatric
+Oligoasthenospermia,sperm,Other,Other,Reproductive,Reproductive,Reproductive,Reproductive,Reproductive
+polycystic ovary syndrome (PCOS),PCOS,Other,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine
+Diabetic Gastroparesis (DGP),gastroparesis,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+IBS visceral pain,pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+cold-coagulation type dysmenorrhea,dysmenorrh,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+pain sensory memory and pain-related aversive memory relapse,pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+Post-stroke depression (PSD),stroke,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+"chronic stress-induced pain hypersensitivity, hyperalgesia",pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+Chronic neuropathic pain and long-term cognitive impairment,pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+Hip fracture-induced acute lung injury (ALI),fracture,Other,Other,Musculoskeletal,Musculoskeletal,Musculoskeletal,Musculoskeletal,Musculoskeletal
+Depression (Chronic restraint stress (CRS)-induced),depression,Other,Psychiatric,Psychiatric,Psychiatric,Psychiatric,Psychiatric,Psychiatric
+Remifentanil-induced hyperalgesia (RIH),hyperalgesia,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+Severe hand-foot-mouth disease (HFMD),hand-foot-mouth,Other,Other,Other,Immune/Inflammatory,Immune/Inflammatory,Immune/Inflammatory,Immune/Inflammatory
+Neuropathic pain (SNI model),pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+Perimenopausal depression (PMD),depression,Other,Psychiatric,Psychiatric,Psychiatric,Psychiatric,Psychiatric,Psychiatric
+Surgical stress-induced impairment of dendritic cell maturation,stress,Other,Psychiatric,Psychiatric,Psychiatric,Psychiatric,Psychiatric,Psychiatric
+Primary dysmenorrhea (PDM),dysmenorrh,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+Neurogenic bladder,bladder,Other,Other,Other,Other,Renal/Urological,Renal/Urological,Renal/Urological
+chronic inflammatory pain-induced anxiety-like behaviors,pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+"MAFLD, T2DM, hepatic steatosis and fibrosis",hepatic,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+Comorbid chronic neuropathic pain and anxiety-like behaviors,pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+"Chronic pain, mechanical allodynia, anxiety-like behaviors",pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+Carrageenan-induced pain aversion (inflammatory pain model),pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+herpes simplex virus type-1 (HSV-1),herpes simplex,Other,Other,Other,Immune/Inflammatory,Immune/Inflammatory,Immune/Inflammatory,Immune/Inflammatory
+"Reproductive aging (neuroendocrine defects, luteinizing hormone (LH) surge failure)",reproductive,Other,Other,Reproductive,Reproductive,Reproductive,Reproductive,Reproductive
+"Chronic neuropathic pain, depression-like behaviors",pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+sleep deprivation,sleep,Other,Psychiatric,Psychiatric,Psychiatric,Psychiatric,Psychiatric,Psychiatric
+CFA-Induced Inflammatory Pain,pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+Surgery-induced spatial memory deficits / Perioperative neurocognitive disorders (PNDs),memory deficit,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Collagen-induced arthritis (rheumatoid arthritis),arthritis,Other,Other,Musculoskeletal,Musculoskeletal,Musculoskeletal,Musculoskeletal,Musculoskeletal
+Perioperative hypothalamus-pituitary-adrenal axis dysfunction (surgical trauma),adrenal,Other,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine
+Chronic Neuropathic Pain,pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+Premature ovarian failure (POF),ovarian,Other,Other,Reproductive,Reproductive,Reproductive,Reproductive,Reproductive
+Controlled ovarian hyperstimulation (COH),ovarian,Other,Other,Reproductive,Reproductive,Reproductive,Reproductive,Reproductive
+Polycystic ovary syndrome (PCOS)-related abnormal follicular development,PCOS,Other,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine
+Persistent inflammatory pain (CFA-induced),pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+Ischemic stroke / Global cerebral ischemia,stroke,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Intrauterine adhesion (IUA),uterine,Other,Other,Reproductive,Reproductive,Reproductive,Reproductive,Reproductive
+Pain-related aversive memory behaviors,pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+Collagen-induced arthritis (CIA),arthritis,Other,Other,Musculoskeletal,Musculoskeletal,Musculoskeletal,Musculoskeletal,Musculoskeletal
+Ketamine-induced neuronal injury,,Other,Other,Other,Other,Other,Other,Other
+"Chronic neuropathic pain (induced by spared nerve injury - SNI), anxiety-like behaviors",pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+"Insomnia, spatial learning and memory deficits",insomnia,Other,Psychiatric,Psychiatric,Psychiatric,Psychiatric,Psychiatric,Psychiatric
+Acute postoperative pain (APP),pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+chronic pain,pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+"anxiety, mood disorders",anxiety,Other,Psychiatric,Psychiatric,Psychiatric,Psychiatric,Psychiatric,Psychiatric
+Dysmenorrhea,dysmenorrh,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+obesity with insulin resistance (IR),obesity,Other,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine
+neurogenic urinary retention,urinary,Other,Other,Other,Other,Renal/Urological,Renal/Urological,Renal/Urological
+insomnia,insomnia,Other,Psychiatric,Psychiatric,Psychiatric,Psychiatric,Psychiatric,Psychiatric
+Prostatitis,prostatitis,Other,Other,Reproductive,Reproductive,Reproductive,Reproductive,Reproductive
+breast cancer,cancer,Other,Other,Other,Other,Other,Other,Cancer/Oncology
+chronic pelvic pain syndrome (CPPS),pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+fallopian tube inflammation,inflammation,Other,Other,Other,Immune/Inflammatory,Immune/Inflammatory,Immune/Inflammatory,Immune/Inflammatory
+urinary retention,urinary,Other,Other,Other,Other,Renal/Urological,Renal/Urological,Renal/Urological
+peritonitis,peritonitis,Other,Other,Other,Immune/Inflammatory,Immune/Inflammatory,Immune/Inflammatory,Immune/Inflammatory
+Hyperactivity of the HPA axis,HPA axis,Other,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine
+HPA axis dysfunction,HPA axis,Other,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine
+Ovarian hyperstimulation syndrome (OHSS),ovarian,Other,Other,Reproductive,Reproductive,Reproductive,Reproductive,Reproductive
+type 2 diabetes,diabetes,Other,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine
+thin endometrium,endometri,Other,Other,Reproductive,Reproductive,Reproductive,Reproductive,Reproductive
+diabetic bladder dysfunction,diabetic,Other,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine
+encephalopathy,encephalopathy,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+ovarian failure,ovarian,Other,Other,Reproductive,Reproductive,Reproductive,Reproductive,Reproductive
+hyperactivity of HPA axis,HPA axis,Other,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine
+"neurotoxicity, immunosuppression",immunosuppress,Other,Other,Other,Immune/Inflammatory,Immune/Inflammatory,Immune/Inflammatory,Immune/Inflammatory
+nerve injury,nerve injury,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Non-alcoholic fatty liver disease,liver,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+Ischemia-Reperfusion,ischemia-reperfusion,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+pulmonary inflammation,inflammation,Other,Other,Other,Immune/Inflammatory,Immune/Inflammatory,Immune/Inflammatory,Immune/Inflammatory
+superovulation,superovulation,Other,Other,Reproductive,Reproductive,Reproductive,Reproductive,Reproductive
+"inflammatory, neuropathic pain",pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+Opiate addiction,addiction,Other,Other,Other,Other,Other,Addiction,Addiction
+inflammatory nociception,nocicepti,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+immunosuppression,immunosuppress,Other,Other,Other,Immune/Inflammatory,Immune/Inflammatory,Immune/Inflammatory,Immune/Inflammatory
+chronic constrictive injury,chronic constrictive injury,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+ganglionectomies,ganglionectom,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+gastrointestinal (GI) motility disorder,intestin,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+heroin addiction,addiction,Other,Other,Other,Other,Other,Addiction,Addiction
+"anxiety, depression",depression,Other,Psychiatric,Psychiatric,Psychiatric,Psychiatric,Psychiatric,Psychiatric
+Incision pain,pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+Osteoarthritis,arthritis,Other,Other,Musculoskeletal,Musculoskeletal,Musculoskeletal,Musculoskeletal,Musculoskeletal
+spared nerve injury,nerve injury,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+knee osteoarthritis,arthritis,Other,Other,Musculoskeletal,Musculoskeletal,Musculoskeletal,Musculoskeletal,Musculoskeletal
+Ovarian hyperstimulation syndrome,ovarian,Other,Other,Reproductive,Reproductive,Reproductive,Reproductive,Reproductive
+ovarian hyper stimulation syndrome,ovarian,Other,Other,Reproductive,Reproductive,Reproductive,Reproductive,Reproductive
+Complex regional pain syndrome,pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+Insulin resistance,insulin,Other,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine
+hyperalgesia,hyperalgesia,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+Pain-depression dyad,pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+Menopausal symptoms associated with learning and memory,menopaus,Other,Other,Reproductive,Reproductive,Reproductive,Reproductive,Reproductive
+controlledovarian hyperstimulation (COH),ovarian,Other,Other,Reproductive,Reproductive,Reproductive,Reproductive,Reproductive
+Surgical trauma-induced HPA axis hyperactivity,HPA axis,Other,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine
+Sleep disorders,sleep,Other,Psychiatric,Psychiatric,Psychiatric,Psychiatric,Psychiatric,Psychiatric
+Reproductive dysfunction,reproductive,Other,Other,Reproductive,Reproductive,Reproductive,Reproductive,Reproductive
+Vaginal and uterine atrophy,vaginal,Other,Other,Reproductive,Reproductive,Reproductive,Reproductive,Reproductive
+Perimenopausal Depression,depression,Other,Psychiatric,Psychiatric,Psychiatric,Psychiatric,Psychiatric,Psychiatric
+Rheumatoid arthritis,arthritis,Other,Other,Musculoskeletal,Musculoskeletal,Musculoskeletal,Musculoskeletal,Musculoskeletal
+Cognitive impairment,cognitive impairment,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+bone cancer pain,pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+Muscle pain,pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+Cutaneous leishmaniasis,cutaneous,Other,Other,Other,Other,Dermatological,Dermatological,Dermatological
+Embryo implantation dysfunction,implantation,Other,Other,Reproductive,Reproductive,Reproductive,Reproductive,Reproductive
+Infertility,fertil,Other,Other,Reproductive,Reproductive,Reproductive,Reproductive,Reproductive
+Chronic muscle pain,pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+Oxidative damage,oxidative damage,Other,Other,Other,Immune/Inflammatory,Immune/Inflammatory,Immune/Inflammatory,Immune/Inflammatory
+Neurological injury,neurological injury,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Implantation failure,implantation,Other,Other,Reproductive,Reproductive,Reproductive,Reproductive,Reproductive
+Post-incision pain,pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+Ovariectomy-induced osteoporosis,osteoporosis,Other,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine
+Subfertility,fertil,Other,Other,Reproductive,Reproductive,Reproductive,Reproductive,Reproductive
+Post-laparotomy pain,pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+Acute gouty arthritis,arthritis,Other,Other,Musculoskeletal,Musculoskeletal,Musculoskeletal,Musculoskeletal,Musculoskeletal
+Sleep disturbance,sleep,Other,Psychiatric,Psychiatric,Psychiatric,Psychiatric,Psychiatric,Psychiatric
+Reproductive disorder,reproductive,Other,Other,Reproductive,Reproductive,Reproductive,Reproductive,Reproductive
+Morphine dependence,morphine dependence,Other,Other,Other,Other,Other,Addiction,Addiction
+Asthma,asthma,Other,Other,Other,Respiratory,Respiratory,Respiratory,Respiratory
+Implantation disorders,implantation,Other,Other,Reproductive,Reproductive,Reproductive,Reproductive,Reproductive
+Stress urinary incontinence,stress,Other,Psychiatric,Psychiatric,Psychiatric,Psychiatric,Psychiatric,Psychiatric
+Alcohol and drug abuse,alcohol,Other,Other,Other,Other,Other,Addiction,Addiction
+Chemotherapy-induced peripheral neuropathy (CIPN) and anxiety,neuropathy,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Multiple sclerosis (MS) / Experimental autoimmune encephalomyelitis (EAE),multiple sclerosis,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Olanzapine-induced obesity and dyslipidemia,obesity,Other,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine
+Premature ovarian insufficiency (POI),POI,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+diesel exhaust particles (DEP)-induced inflammatory response in lung,diesel exhaust,Other,Other,Other,Respiratory,Respiratory,Respiratory,Respiratory
+LPS-induced depression model,depression,Other,Psychiatric,Psychiatric,Psychiatric,Psychiatric,Psychiatric,Psychiatric
+"Diabetes mellitus (GI motility disorders, enteric neuronal loss)",GI motility,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+allergic rhinitis (AR),allergic rhinitis,Other,Other,Other,Respiratory,Respiratory,Respiratory,Respiratory
+Cognitive impairment induced by chronic hypoxia,cognitive impairment,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Ischemic stroke (IS) / Middle cerebral artery occlusion (MCAO),stroke,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Chronic Neuropathic Pain (NP),pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+Metabolic Dysfunction-Associated Fatty Liver Disease (MAFLD),liver,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+Hypotension,hypotension,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular
+Rheumatoid arthritis (RA),arthritis,Other,Other,Musculoskeletal,Musculoskeletal,Musculoskeletal,Musculoskeletal,Musculoskeletal
+Asphyxial Cardiac Arrest (CA)-induced global cerebral ischemia injury,cerebral isch,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+HFD-exacerbated Alzheimer's pathology,alzheimer,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Diabetic gastroparesis,gastroparesis,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+"Ischemic stroke, corpus callosum injury",stroke,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Corticosterone (CORT)-induced depression,depression,Other,Psychiatric,Psychiatric,Psychiatric,Psychiatric,Psychiatric,Psychiatric
+Acute adjuvant-induced arthritis (AA),arthritis,Other,Other,Musculoskeletal,Musculoskeletal,Musculoskeletal,Musculoskeletal,Musculoskeletal
+cerebral ischaemia/reperfusion injury (CIRI) / stroke,stroke,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Fibromyalgia,fibromyalgia,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+Intestinal Ischemia/Reperfusion Injury (I/R),intestin,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+Postoperative pain (plantar incision induced),pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+"comorbid pain and depression (constriction injury on the infraorbital nerve, CION)",pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+"Inflammatory pain (CFA-induced), Neuropathic pain (CCI-induced)",pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+Neuropathic Pain (NPP),pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+LPS-induced Acute Lung Injury (ALI) (sepsis-induced ARDS),lung injury,Other,Other,Other,Respiratory,Respiratory,Respiratory,Respiratory
+Endotoxin-induced lung injury (sepsis),lung injury,Other,Other,Other,Respiratory,Respiratory,Respiratory,Respiratory
+Inflammatory pain (CFA-induced),pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+Diabetic encephalopathy,encephalopathy,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Sepsis-induced acute lung injury (ALI),lung injury,Other,Other,Other,Respiratory,Respiratory,Respiratory,Respiratory
+ISO-induced cardiac fibrosis and hypertrophy,cardiac,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular
+Cerebral ischemia / permanent middle cerebral artery occlusion (pMCAO),cerebral isch,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Diabetic neuropathic pain,pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+Cerebral ischemic stroke,stroke,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Paclitaxel-induced peripheral neuropathy,neuropathy,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Trigeminal neuralgia with comorbid anxiety and depression,neuralgia,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+"Neuropathic pain (NP), negative emotion",pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+Intracerebral hemorrhage (ICH),cerebral hemorrhage,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Zymosan-induced colorectal hypersensitivity (Irritable Bowel Syndrome - IBS),IBS,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+fibromyalgia pain,pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+Chronic Cerebral Ischemia,cerebral isch,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Limb Spasms after Intracerebral Hemorrhage,cerebral hemorrhage,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+immobilization-induced muscle atrophy,muscle atrophy,Other,Other,Musculoskeletal,Musculoskeletal,Musculoskeletal,Musculoskeletal,Musculoskeletal
+Arthritis (Acute adjuvant arthritis),arthritis,Other,Other,Musculoskeletal,Musculoskeletal,Musculoskeletal,Musculoskeletal,Musculoskeletal
+Chronic obstructive pulmonary disease (COPD),COPD,Other,Other,Other,Respiratory,Respiratory,Respiratory,Respiratory
+Central post-stroke pain (CPSP),pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+Methamphetamine (METH)-induced depressive-like behaviors and cognitive impairment,methamphetamine,Other,Other,Other,Other,Other,Addiction,Addiction
+Acute ankle arthritis,arthritis,Other,Other,Musculoskeletal,Musculoskeletal,Musculoskeletal,Musculoskeletal,Musculoskeletal
+Major Depressive Disorder (MDD) induced by chronic unpredictable mild stress (CUMS),stress,Other,Psychiatric,Psychiatric,Psychiatric,Psychiatric,Psychiatric,Psychiatric
+Neuropathic pain (NP) induced by chronic constriction injury (CCI),pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+opioid-induced constipation (OIC),constipation,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+Post-traumatic stress disorder (PTSD),PTSD,Other,Psychiatric,Psychiatric,Psychiatric,Psychiatric,Psychiatric,Psychiatric
+Long-segment sciatic nerve defects,SCI,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Alzheimer's disease (AD) / cognitive impairments,alzheimer,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Cerebral ischemia-reperfusion (CIR),cerebral isch,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+cisplatin-induced peripheral neuropathy (CIPN),neuropathy,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Experimental Autoimmune Encephalomyelitis (EAE) (model for Multiple Sclerosis),multiple sclerosis,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Irritable bowel syndrome (IBS-D),IBS,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+Postoperative Cognitive Dysfunction (POCD) induced by anesthesia and tibial fracture surgery,cognitive dysfunction,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Alzheimer's disease (AD) / AD-like phenotypes,alzheimer,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+"Irritable Bowel Syndrome (IBS), visceral hypersensitivity, anxiety-like behaviors",visceral hypersensitivity,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+Gastric contractility,gastric,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+Adjuvant-induced arthritis (AA),arthritis,Other,Other,Musculoskeletal,Musculoskeletal,Musculoskeletal,Musculoskeletal,Musculoskeletal
+Sciatic nerve crush injury (sciatica),sciatica,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+Idiopathic pulmonary fibrosis (IPF),pulmonary fibrosis,Other,Other,Other,Respiratory,Respiratory,Respiratory,Respiratory
+Diabetes-induced gastrointestinal (GI) motility disorders,intestin,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+"chronic pain comorbid with anxiety and depression, chronic constriction injury of the infraorbital nerve (CION)",pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+"Inflammatory pain (AA-induced writhing, CFA-induced)",pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+Pain-anxiety comorbidity (CFA-induced chronic inflammatory pain),pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+Ligature-induced periodontitis (LIP) with sleep deprivation (SD),periodontitis,Other,Other,Other,Immune/Inflammatory,Immune/Inflammatory,Immune/Inflammatory,Immune/Inflammatory
+Cognitive impairment in hypertension,cognitive impairment,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+cerebral Ischemia-Reperfusion-Induced intestinal barrier injury and neuroinflammation (CIRI),cerebral isch,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+central poststroke pain (CPSP),pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+Fibromyalgia (FM) pain,pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+Neuropathic pain (L5 spinal nerve ligation),pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+Fibromyalgia (FM),fibromyalgia,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+intestinal ischemia-reperfusion (II/R)-induced acute lung injury (ALI),ischemia-reperfusion,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+chronic kidney disease (CKD) muscle atrophy,muscle atrophy,Other,Other,Musculoskeletal,Musculoskeletal,Musculoskeletal,Musculoskeletal,Musculoskeletal
+Acid-induced pain (thermal hyperalgesia),pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+Post-stroke gastrointestinal dysfunction (ischemic stroke),stroke,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Pain (antinociceptive effects),pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+CFA-induced inflammatory pain (Arthritic Rats),pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+"Exercise-induced muscle damage (EIMD), skeletal muscle inflammatory response",skeletal muscle,Other,Other,Musculoskeletal,Musculoskeletal,Musculoskeletal,Musculoskeletal,Musculoskeletal
+CFA-induced arthritis,arthritis,Other,Other,Musculoskeletal,Musculoskeletal,Musculoskeletal,Musculoskeletal,Musculoskeletal
+Rheumatoid Arthritis (Collagen-Induced Arthritis),arthritis,Other,Other,Musculoskeletal,Musculoskeletal,Musculoskeletal,Musculoskeletal,Musculoskeletal
+Parkinson's disease (PD) constipation,parkinson,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Subarachnoid hemorrhage (SAH),subarachnoid,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+MPTP-induced Parkinson's disease (PD),parkinson,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+LPS-induced cardiomyopathy,cardiomyopathy,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular
+Arthritis / Inflammatory pain,pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+Chronic Neuropathic Pain (NP) induced by chronic constriction injury (CCI),pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+Obesity and Insulin Resistance (IR),obesity,Other,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine
+Ischemic stroke (permanent middle cerebral artery occlusion - PMCAO),stroke,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Chronic pain (hyperalgesic priming model),pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+Sciatic nerve dissociation,SCI,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Ventilator-Induced Lung Injury (VILI),lung injury,Other,Other,Other,Respiratory,Respiratory,Respiratory,Respiratory
+Pain memory model,pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+Spared nerve injury (SNI)-induced neuropathic pain,pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+Severe acute pancreatitis (SAP),pancreatitis,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+Fibromyalgia (FM) pain (ICS-induced FM model),pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+LPS-induced cognitive dysfunction,cognitive dysfunction,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+C6-Luc glioma,glioma,Other,Other,Other,Other,Other,Other,Cancer/Oncology
+Neuropathic pain (NP),pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+Chronic hepatitis B (CHB),hepatitis,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+"Collagen-induced arthritis (CIA), rheumatoid arthritis (RA)",arthritis,Other,Other,Musculoskeletal,Musculoskeletal,Musculoskeletal,Musculoskeletal,Musculoskeletal
+Neuropathic pain (NPP) induced by spared nerve injury (SNI),pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+Sciatic Nerve Cuffing-induced Neuropathic Pain,pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+asthma inflammation,asthma,Other,Other,Other,Respiratory,Respiratory,Respiratory,Respiratory
+Ulcerative colitis (DSS-induced),colitis,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+Irritable bowel syndrome (IBS) / Visceral pain,pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+Neuropathic pain (Sciatica & low back pain),pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+Paradoxical sleep deprivation-induced postoperative hyperalgesia,hyperalgesia,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+Diabetic cognitive impairment,cognitive impairment,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Cerebral ischemia (stroke),stroke,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Intestinal Ischemia-Reperfusion Injury (IIRI),ischemia-reperfusion,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Acute adjuvant arthritis (AA),arthritis,Other,Other,Musculoskeletal,Musculoskeletal,Musculoskeletal,Musculoskeletal,Musculoskeletal
+pulmonary dysplasia in offspring with perinatal nicotine exposure (PNE),pulmonary dysplasia,Other,Other,Other,Respiratory,Respiratory,Respiratory,Respiratory
+Disuse-induced skeletal muscle atrophy (casting-induced muscle atrophy),muscle atrophy,Other,Other,Musculoskeletal,Musculoskeletal,Musculoskeletal,Musculoskeletal,Musculoskeletal
+Gastrointestinal motility disorder (diabetic mice model),intestin,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+Fibromyalgia (FM) / Intermittent Cold Stress (ICS)-induced FM-like model,fibromyalgia,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+Thermal Injury-induced Gastric Dysmotility,gastric,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+Inflammation-induced pain,pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+Amyotrophic lateral sclerosis (ALS),ALS,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Psoriasiform skin inflammation (psoriasis),inflammation,Other,Other,Other,Immune/Inflammatory,Immune/Inflammatory,Immune/Inflammatory,Immune/Inflammatory
+liver regeneration after 70% partial hepatectomy (PH),liver,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+Chronic hepatitis B (CHB) / HBV infection,hepatitis,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+Diabetic Neuropathic Pain (DNP),pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+Permanent middle cerebral artery occlusion (pMCAO),MCAO,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Cerebral ischemia/reperfusion (I/R) injury / Ischemic stroke (IS),stroke,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Premature ejaculation,premature ejaculation,Other,Other,Reproductive,Reproductive,Reproductive,Reproductive,Reproductive
+Adjuvant-Induced Arthritis (AIA),arthritis,Other,Other,Musculoskeletal,Musculoskeletal,Musculoskeletal,Musculoskeletal,Musculoskeletal
+endotoxin-induced acute lung injury,lung injury,Other,Other,Other,Respiratory,Respiratory,Respiratory,Respiratory
+Fibromyalgia (FM) pain (cold-stress-induced),pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+Jumping-induced muscle injury,muscle injury,Other,Other,Musculoskeletal,Musculoskeletal,Musculoskeletal,Musculoskeletal,Musculoskeletal
+"Hypertension, cognitive dysfunction",cognitive dysfunction,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Hepatic Ischemia/Reperfusion Injury (IRI),hepatic,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+Insulin resistance (IR),insulin,Other,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine
+Diabetic neuropathic pain (DNP) (STZ-induced),pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+"Irritable bowel syndrome (IBS), Ulcerative colitis (UC)",colitis,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+Neuropathic pain (Spinal Nerve Ligation model),pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+Cast-induced skeletal muscle atrophy,muscle atrophy,Other,Other,Musculoskeletal,Musculoskeletal,Musculoskeletal,Musculoskeletal,Musculoskeletal
+Knee Osteoarthritis (ACLT rat model),arthritis,Other,Other,Musculoskeletal,Musculoskeletal,Musculoskeletal,Musculoskeletal,Musculoskeletal
+Diabetes-induced hyperalgesia / Diabetic neuropathic pain (DNP),pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+acute lung injury,lung injury,Other,Other,Other,Respiratory,Respiratory,Respiratory,Respiratory
+sepsis-associated cognitive dysfunction,cognitive dysfunction,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+alcoholic liver injury,liver,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+Subarachnoid hemorrhage,subarachnoid,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Inflammatory Bowel Disease (IBD) induced Visceral Pain,pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+Depression (chronic unpredictable mild stress (CUMS)-induced),depression,Other,Psychiatric,Psychiatric,Psychiatric,Psychiatric,Psychiatric,Psychiatric
+Adjuvant arthritis (AA),arthritis,Other,Other,Musculoskeletal,Musculoskeletal,Musculoskeletal,Musculoskeletal,Musculoskeletal
+post-ischemic depression (PID),depression,Other,Psychiatric,Psychiatric,Psychiatric,Psychiatric,Psychiatric,Psychiatric
+Rheumatoid arthritis (RA) (antigen-induced arthritis (AIA) model),arthritis,Other,Other,Musculoskeletal,Musculoskeletal,Musculoskeletal,Musculoskeletal,Musculoskeletal
+"Cerebral ischemia, ischemic stroke",stroke,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Perinatal nicotine exposure-induced offspring lung dysplasia,nicotine,Other,Other,Other,Other,Other,Addiction,Addiction
+colorectal cancer,rectal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+Immunosenescence (D-galactose-induced aging),immunosenescence,Other,Other,Other,Immune/Inflammatory,Immune/Inflammatory,Immune/Inflammatory,Immune/Inflammatory
+"Chronic pain, Negative emotions, Hyperalgesia",pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+chronic inflammatory pain,pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+cervical spondylosis radiculopathy,cervical spondyl,Other,Other,Musculoskeletal,Musculoskeletal,Musculoskeletal,Musculoskeletal,Musculoskeletal
+Chronic Hypoxia-Induced Cognitive Dysfunction,cognitive dysfunction,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Experimental autoimmune encephalomyelitis (EAE),EAE,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+"Surgical Trauma, Hypothalamic-Pituitary-Adrenal Axis Dysfunction",adrenal,Other,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine
+collagen-induced rheumatoid arthritis (CIA),arthritis,Other,Other,Musculoskeletal,Musculoskeletal,Musculoskeletal,Musculoskeletal,Musculoskeletal
+Gout arthritis,arthritis,Other,Other,Musculoskeletal,Musculoskeletal,Musculoskeletal,Musculoskeletal,Musculoskeletal
+nociception and inflammation,nocicepti,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+Depression-like behavior (tail suspension test induced),depression,Other,Psychiatric,Psychiatric,Psychiatric,Psychiatric,Psychiatric,Psychiatric
+Pain memory and related anxiety-like behaviors,pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+Focal Cerebral Ischemia (FCI),cerebral isch,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Portal hypertension (PHT) induced by bile duct ligation (BDL),hypertension,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular
+Cytokine storm secondary lung injury,lung injury,Other,Other,Other,Respiratory,Respiratory,Respiratory,Respiratory
+pulmonary inflammatory disease,pulmonary inflammatory,Other,Other,Other,Respiratory,Respiratory,Respiratory,Respiratory
+atrophic gastritis (CAG),gastritis,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+Complex regional pain syndrome type-I (CRPS-I),pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+impaired endometrial receptivity,endometri,Other,Other,Reproductive,Reproductive,Reproductive,Reproductive,Reproductive
+cholestasis,cholestasis,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+Gastric mucosal lesions,gastric,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+autism,autism,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+alcohol use disorder (AUD),alcohol,Other,Other,Other,Other,Other,Addiction,Addiction
+peripheral neuropathy,neuropathy,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+hippocampal injury,hippocampal injury,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Sepsis-Associated Encephalopathy (SAE),encephalopathy,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Chronic cecitis / local enteritis,cecitis,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+postoperative complication,postoperative complication,Other,Other,Other,Immune/Inflammatory,Immune/Inflammatory,Immune/Inflammatory,Immune/Inflammatory
+Lyme disease,lyme disease,Other,Other,Other,Immune/Inflammatory,Immune/Inflammatory,Immune/Inflammatory,Immune/Inflammatory
+ulcer,ulcer,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+poststroke motor dysfunction,stroke,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+delirium,delirium,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+COPD,COPD,Other,Other,Other,Respiratory,Respiratory,Respiratory,Respiratory
+morphine tolerance,morphine tolerance,Other,Other,Other,Other,Other,Addiction,Addiction
+Muscular atrophy,muscular,Other,Other,Musculoskeletal,Musculoskeletal,Musculoskeletal,Musculoskeletal,Musculoskeletal
+Gastric dysmotility,gastric,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+subacute/chronic pain,pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+cognitive deficits,cognitive deficit,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+pulmonary dysplasia(offspring),pulmonary dysplasia,Other,Other,Other,Respiratory,Respiratory,Respiratory,Respiratory
+cancer,cancer,Other,Other,Other,Other,Other,Other,Cancer/Oncology
+diarrhea,diarrhea,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+Chronic cerebral hypoperfusion (CCH),cerebral hypoperfusion,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+spared nerve injury (SNI),nerve injury,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+GI motility dysfunction,GI motility,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+"inflammatory pain, neuropathic pain",pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+ischemic white matter damage,white matter damage,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+hepatic encephalopathy,encephalopathy,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+insulin-dependent diabetes (IDDM),diabetes,Other,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine
+cutaneous injury,cutaneous,Other,Other,Other,Other,Dermatological,Dermatological,Dermatological
+Skeletal muscle injury,skeletal muscle,Other,Other,Musculoskeletal,Musculoskeletal,Musculoskeletal,Musculoskeletal,Musculoskeletal
+muscle injury,muscle injury,Other,Other,Musculoskeletal,Musculoskeletal,Musculoskeletal,Musculoskeletal,Musculoskeletal
+skeletal muscle fibrosis,skeletal muscle,Other,Other,Musculoskeletal,Musculoskeletal,Musculoskeletal,Musculoskeletal,Musculoskeletal
+drug abuse,drug abuse,Other,Other,Other,Other,Other,Addiction,Addiction
+migraine,migraine,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+ptsd,PTSD,Other,Psychiatric,Psychiatric,Psychiatric,Psychiatric,Psychiatric,Psychiatric
+cancer-induced bone pain,pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+emphysema,emphysema,Other,Other,Other,Respiratory,Respiratory,Respiratory,Respiratory
+stress,stress,Other,Psychiatric,Psychiatric,Psychiatric,Psychiatric,Psychiatric,Psychiatric
+tumor,tumor,Other,Other,Other,Other,Other,Other,Cancer/Oncology
+memory deficit,memory deficit,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+intestinal ischaemia,intestin,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+Inflammatory bowel disease,inflammatory bowel,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+Middle Cerebral Artery Occlusion/Reperfusion,,Other,Other,Other,Other,Other,Other,Other
+nicotine exposure,nicotine,Other,Other,Other,Other,Other,Addiction,Addiction
+chronic and excruciating pain,,Other,Other,Other,Other,Other,Other,Other
+Cancer pain,pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+nicotine-induced pulmonary changes,nicotine,Other,Other,Other,Other,Other,Addiction,Addiction
+hepatitis,hepatitis,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+Chronic Inflammatory Pain and Depression,pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+Jejunum movement disorder,jejun,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+peripheral nerve injury (PNI),peripheral nerve,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+hyperalgesic priming,hyperalgesic priming,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+Complex regional pain syndrome type-I,pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+bowel dysfunction,bowel,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+cerebral I/R injury model,I/R injury,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+cerebral  injury,,Other,Other,Other,Other,Other,Other,Other
+Chronic stress,stress,Other,Psychiatric,Psychiatric,Psychiatric,Psychiatric,Psychiatric,Psychiatric
+chronic fibromyalgia pain,pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+focal cerebral ischemia and reperfusion,cerebral isch,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+intestinal injury,intestin,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+Dyspepsia,dyspepsia,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+drug induced pain,pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+excisional skin injuries,skin,Other,Other,Other,Other,Dermatological,Dermatological,Dermatological
+nerve ligation,nerve ligation,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+multiple infarct dementia,dementia,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Oligozoospermia of insufficiency of Shen (Kidney) essence syndrome (OIKES),sperm,Other,Other,Reproductive,Reproductive,Reproductive,Reproductive,Reproductive
+acute colitis,colitis,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+pain memory-induced aversive behaviors,pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+Gastric Hypomotility,gastric,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+Nonalcoholic fatty liver disease,liver,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+Shock,shock,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular
+Crohn's Disease,crohn,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+Psoriasis,psoriasis,Other,Other,Other,Other,Dermatological,Dermatological,Dermatological
+cerebral injury,cerebral injury,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Allergic Contact Dermatitis,allerg,Other,Other,Other,Immune/Inflammatory,Immune/Inflammatory,Immune/Inflammatory,Immune/Inflammatory
+Hyperlipidemia,hyperlipidemia,Other,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine
+faecal incontinence,incontinence,Other,Other,Other,Other,Renal/Urological,Renal/Urological,Renal/Urological
+obstructive pulmonary disease,pulmonary disease,Other,Other,Other,Respiratory,Respiratory,Respiratory,Respiratory
+Hemorrhagic shock,shock,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular
+cerebral palsy,cerebral palsy,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+telomerase-deficient,telomerase-deficient,Other,Other,Other,Immune/Inflammatory,Immune/Inflammatory,Immune/Inflammatory,Immune/Inflammatory
+hydrocephalus,hydrocephalus,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Myocardial Injury in sepsis,myocardial,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular
+neuralgia,neuralgia,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+pulmonary dysplasia,pulmonary dysplasia,Other,Other,Other,Respiratory,Respiratory,Respiratory,Respiratory
+Chronic kidney disease,kidney,Other,Other,Other,Other,Renal/Urological,Renal/Urological,Renal/Urological
+Inflammatory and Neuropathic Pain,,Other,Other,Other,Other,Other,Other,Other
+Chronic Overlapping Pain,pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+Diabetic neuropathy,neuropathy,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Chronic Cerebral Hypoperfusion,cerebral hypoperfusion,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Epilepsy,epilepsy,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Chronic atrophic gastritis,gastritis,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+Cognitive impairments,cognitive impairment,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Stress-induced gastric hypersensitivity,gastric,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+Random pattern flap survival,flap survival,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular
+type 2 diabetic neuropathic pain,pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+nociceptive pain,pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+Allergic and inflammatory disease,allerg,Other,Other,Other,Immune/Inflammatory,Immune/Inflammatory,Immune/Inflammatory,Immune/Inflammatory
+Chronic visceral hyperalgesia,hyperalgesia,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+Abnormal defaecation,defaecation,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+Intestinal Ischemia-Reperfusion injury,ischemia-reperfusion,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Muscle atrophy,muscle atrophy,Other,Other,Musculoskeletal,Musculoskeletal,Musculoskeletal,Musculoskeletal,Musculoskeletal
+Acute bowel injury,bowel,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+Postoperative hyperalgesia,hyperalgesia,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+focal cerebral ischemia,cerebral isch,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Smoke exposed lung damage,lung damage,Other,Other,Other,Respiratory,Respiratory,Respiratory,Respiratory
+Myasthenia gravis,myasthenia gravis,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Inhibited gastric motility,gastric,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+Tendon injury,tendon,Other,Other,Musculoskeletal,Musculoskeletal,Musculoskeletal,Musculoskeletal,Musculoskeletal
+Intestinal ischemia,intestin,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+Pain memory,pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+Intestinal dysfunction,intestin,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+Septic brain injury,brain injury,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Intragastric pressure damage,gastric,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+Heat,,Other,Other,Other,Other,Other,Other,Other
+Gastroenteric disorders,gastroenteric,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+Neurogenic bowel dysfunction,bowel,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+Post-operative pain,pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+Gut barrier dysfunction,gut,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+Abdominal adhesion,abdominal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+Burn injury,burn,Other,Other,Other,Other,Dermatological,Dermatological,Dermatological
+Trauma-induced immunosuppression,immunosuppress,Other,Other,Other,Immune/Inflammatory,Immune/Inflammatory,Immune/Inflammatory,Immune/Inflammatory
+Gastrointestinal (GI) symptoms,intestin,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+Blood stasis,blood stasis,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular
+Heart failure,heart,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular
+Visceral nociception,nocicepti,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+Fatigue,fatigue,Other,Psychiatric,Psychiatric,Psychiatric,Psychiatric,Psychiatric,Psychiatric
+Gastric mucosal lesion (GML),gastric,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+Myopathy,myopathy,Other,Other,Musculoskeletal,Musculoskeletal,Musculoskeletal,Musculoskeletal,Musculoskeletal
+Bowel obstruction,bowel,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+Diabetic polyneuropathy,neuropathy,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Gut ischemia,gut,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+Multiple sclerosis,multiple sclerosis,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Painful diabetic neuropathy,pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+Chronic obstructive pulmonary disease,pulmonary disease,Other,Other,Other,Respiratory,Respiratory,Respiratory,Respiratory
+Alopecia areata,alopecia,Other,Other,Other,Other,Dermatological,Dermatological,Dermatological
+Osteoarthritic pain,pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+Gastrointestinal motility disorder,intestin,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+Diabetic constipation,constipation,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+Osteosarcoma,sarcoma,Other,Other,Other,Other,Other,Other,Cancer/Oncology
+Visceral inflammation,inflammation,Other,Other,Other,Immune/Inflammatory,Immune/Inflammatory,Immune/Inflammatory,Immune/Inflammatory
+Burn-induced gastric dysmotility,gastric,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+Hepatic fibrosis,hepatic,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal,Gastrointestinal
+Stress-related disorders,stress,Other,Psychiatric,Psychiatric,Psychiatric,Psychiatric,Psychiatric,Psychiatric
+Alcohol abuse,alcohol,Other,Other,Other,Other,Other,Addiction,Addiction
+"Neuropathic pain, Memory impairment",pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+Inflammatory disease,inflammatory disease,Other,Other,Other,Immune/Inflammatory,Immune/Inflammatory,Immune/Inflammatory,Immune/Inflammatory
+"Tumor-induced pain, Tumor-associated inflammation",pain,Pain,Pain,Pain,Pain,Pain,Pain,Pain
+"Obesity, Diabetes",diabetes,Other,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine,Metabolic/Endocrine
+Sensory neuropathy,neuropathy,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Allergic disorder,allerg,Other,Other,Other,Immune/Inflammatory,Immune/Inflammatory,Immune/Inflammatory,Immune/Inflammatory
+Amyotrophic lateral sclerosis,amyotrophic,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Alcoholism,alcohol,Other,Other,Other,Other,Other,Addiction,Addiction
+Neurological disorders,neurological disorder,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Autonomic dysfunction,,Other,Other,Other,Other,Other,Other,Other
+Surgical trauma,surgical trauma,Other,Other,Other,Immune/Inflammatory,Immune/Inflammatory,Immune/Inflammatory,Immune/Inflammatory
+Memory impairments,memory impairment,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological,Neurological
+Spontaneous hypertension,hypertension,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular,Cardiovascular
+Neurogenic inflammation,inflammation,Other,Other,Other,Immune/Inflammatory,Immune/Inflammatory,Immune/Inflammatory,Immune/Inflammatory
+learning and memory impairment,,Other,Other,Other,Other,Other,Other,Other
