@@ -60,8 +60,8 @@ _No figure needed_
 
 **Title:** Data Mining Approaches to Acupoint Characterization
 
-▪ Classical text mining: Spatial patterns of acupoint indications from Chimgoogyeongheombang revealed meridian-associated constellation patterns (Jung et al., 2015; Chae et al., 2019)
-▪ Clinical data mining: Acupoint selection patterns for pain (Hwang et al., 2021), five-phase acupoints (Lee et al., 2022), source acupoints (Choi et al., 2021), commonality/specificity quantified (Lee et al., 2020; Jung et al., 2017)
+▪ Classical text mining: tf-idf analysis of acupoint/meridian × disease site associations from Chimgoogyeongheombang and DongUiBoGam showed each acupoint and meridian has distinct constellation patterns associated with its meridian route (Jung et al., 2015; Chae et al., 2019)
+▪ Clinical data mining: MDS of five-phase acupoints from 421 RCTs showed stream and sea acupoints cluster distinctly by indication (Lee et al., 2022); hierarchical clustering and MDS of Source acupoints revealed LR3, LI4, HT7, KI3 have distinct properties in reduced space (Choi et al., 2021); acupoint selection patterns differ by pain condition (Hwang et al., 2021); clinician surveys revealed commonality (ST36, LI4, LR3 across diseases) and specificity (three disease clusters with distinct point selections) (Lee et al., 2020); symptom mapping in chronic pain patients showed distal activation along meridian routes vs. local activation near trunk (Jung et al., 2017)
 ▪ These approaches show WHICH points are selected for WHICH conditions — but not whether their disease X mechanism profiles differ
 ▪ We need simultaneous characterization across disease AND mechanism domains, not just disease-point associations
 
@@ -201,7 +201,8 @@ _Figure: Fig 3 (three RDM heatmaps, with BL25-GV4 highlighted)_
 **Title:** Body Location Is Independent; Disease and Mechanism Converge
 
 ▪ **Somatotopic null:** Disease vs Surface r = -0.026; Disease vs Segmental r = 0.008; all four body-space tests non-significant (p > 0.19)
-▪ **Disease-mechanism convergence:** r = 0.426, p = 0.032 — driven by BL25/ST25 (GI disease + Gut-Brain mechanism) and GV4 (Neurological + Neuroprotective)
+▪ **Disease-mechanism convergence:** r = 0.426, p = 0.032 — pairs close in disease tend to be close in mechanism (BL25–ST25: 0.079, 0.065) and pairs far in disease tend to be far in mechanism (BL25–GV4: 0.993, 0.726)
+▪ Notable departures: GV4–LI4 (disease 0.102, mechanism 0.414) — similar diseases, different mechanisms; BL25–PC6 (disease 0.850, mechanism 0.177) — different diseases, similar mechanisms (mechanism compression)
 ▪ Partial Mantel: convergence survives control for surface (r = 0.426) and segmental (r = 0.388) — coupling is direct, not mediated by body location
 ▪ Bootstrap 95% CI: 0.167–0.577 (excludes zero)
 
@@ -215,9 +216,12 @@ _Figure: Fig 4 (all three panels)_
 **Title:** Within Each Site, Disease-Mechanism Coupling Varies
 
 ▪ Having established that disease and mechanism profiles correlate *across* sites, we ask: *within* each site, how tightly are they coupled?
-▪ GV4: 62% in top 3 cells (Neurological x Neuroprotective) — tightest specialist
-▪ ST36: 19.5% in top 3, spread across 123 cells — broadest generalist
-▪ PC6: Disease specialist (Cardiovascular) but mechanism generalist (multiple pathways) — the two dimensions dissociate
+▪ Panel A ranks sites by top-3 cell concentration: GV4 (62%) → BL25 (50%) → ST25 (38%) → LI4 (35%) → CV12 (29%) → PC6 (27%) → SP6 (21%) → ST36 (20%) — a specialist-generalist continuum
+▪ GV4 (top3=62%): Nearly all bubbles confined to the Neurological row, but spanning multiple mechanism columns (Neuroprotective 28%, Autophagy 17%, Cell Survival 17%) — disease specialist, mechanism generalist
+▪ CV12 (top3=29%): Three disease rows competing (Metabolic, Neurological, GI) with no single dominant pairing — intermediate coupling
+▪ PC6 (top3=27%): Two disease rows nearly tied — Cardiovascular (10.8%) and Neurological (10.2%) both channeling through Inflammatory/Immune — spread across both dimensions
+▪ ST36 (top3=20%): Many small bubbles across the grid; top cell is only 8% (Neurological × Inflammatory/Immune) — no dominant pairing
+▪ At equal n=22, ranking is preserved (GV4 63%, ST36 32%) but the gap compresses by ~30% — the continuum is real but its magnitude is partly inflated by unequal sample sizes
 ▪ Tautology check confirms coupling is not a definitional artifact
 
 **Purpose:** Within-site coupling adds a dimension beyond the between-site RSA.
@@ -233,6 +237,7 @@ _Figure: Fig 5 (Panel A bar chart + Panel B bubble plots)_
 ▪ Disease space: GI cluster (BL25, ST25) separated from CV outlier (PC6) and broad cluster
 ▪ Mechanism space: Most sites collapse near origin — PC6 shifts from extreme isolation to central cluster
 ▪ Anatomical pair lines (dashed) cross cluster boundaries in both panels — body proximity ≠ functional proximity
+▪ MDS and PCA (Fig S1, S2) confirm the same structure — GI pairing, PC6 space-shifting, mechanism compression, and anatomical pair crossing are method-independent
 
 **Purpose:** Visual summary confirming all prior findings in one figure.
 _Figure: Fig 6 (CA biplots — disease and mechanism space)_
@@ -247,6 +252,8 @@ _Figure: Fig 6 (CA biplots — disease and mechanism space)_
 ▪ Bootstrap CI excludes zero (0.167–0.577)
 ▪ Coordinate perturbation: 0 of 1,000 iterations produce significant somatotopic-disease signal
 ▪ Subsample to n=22: Significance drops to 16% — honest power limitation, not artifact
+▪ Subsample coupling: Specialist-generalist ranking preserved at equal n=22 (GV4 62.5% → ST36 31.9%), but spread compresses — quantitative gap partly inflated by sample size
+▪ GV4 exclusion: removing the most extreme specialist preserves cluster structure in CA biplots — GI pairing, PC6 isolation, and anatomical pair crossing all survive (Fig S4)
 ▪ Publication collapse and "Other" inclusion: zero effect
 
 **Purpose:** Preempt skepticism — the results are not fragile.
@@ -276,9 +283,11 @@ _No figure needed_
 **Title:** Implications for Acupoint Specificity Research
 
 ▪ Sites have reproducibly distinct functional identities — acupoint specificity exists at the population level, not just in single-pair experiments
-▪ The somatotopic null result: functional identity is NOT determined by peripheral anatomy or spinal segmental wiring — consistent with Liu et al. (2021) showing PROKR2 neuron distribution, not skin location, determines pathway engagement
+▪ The somatotopic null result: functional identity is NOT determined by peripheral anatomy or spinal segmental wiring — consistent with findings that local neural architecture (e.g., PROKR2 neuron distribution; Liu et al., 2021), rather than body-surface coordinates or spinal segment, determines which pathways a site engages
 ▪ Mechanism compression: most sites engage shared anti-inflammatory and neuroprotective pathways (Oh & Kim, 2022; Lin & Chen, 2008) — specificity resides in disease application, not mechanism selection
 ▪ The specialist-generalist continuum: sites differ not just in what they do but in how tightly disease and mechanism are coupled — specialist sites (GV4, PC6) are natural candidates for double-dissociation designs (Chae et al., 2026)
+▪ Low-dimensional geometry: disease space is organized by indication poles (GI, Cardiovascular, Neurological), consistent with MDS analyses of five-phase and source acupoints in clinical trial databases (Lee et al., 2022; Choi et al., 2021) — our CA biplots extend this by showing that these indication poles collapse in mechanism space — sites that are well-separated by what they treat become nearly indistinguishable in how they work
+▪ Implications for sham design: proximity-based sham selection assumes nearby sites are functionally neutral, but our data shows no relationship between physical proximity and profile similarity (Mantel r = −0.026). Even SP6–ST36, the most mechanism-similar pair (cosine distance 0.016), diverges significantly in disease (p = 1.6×10⁻²⁵) — suggesting that proximity-based sham sites may share biological pathways while differing in disease-specific research patterns, a distinction worth considering in trial design (cf. Langevin & Wayne, 2018)
 ▪ Our literature-level characterization complements neuroimaging-based decoding of acupoint specificity (Yoon et al., 2026)
 
 **Purpose:** Connect findings to the broader field and prior references.

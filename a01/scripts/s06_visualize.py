@@ -41,28 +41,26 @@ def plot_stability_curves():
     x_d = disease_stab['k_to'].values
     y_d = disease_stab['mantel_r'].values
     ax1.plot(x_d, y_d, 'o-', color='#2196F3', linewidth=2, markersize=8)
-    ax1.axhline(y=0.9, color='gray', linestyle='--', alpha=0.5, label='r = 0.9 threshold')
     elbow_idx, elbow_k = find_elbow(x_d, y_d)
     ax1.axvline(x=elbow_k, color='red', linestyle=':', alpha=0.7, label=f'Elbow: k={elbow_k}')
     ax1.set_xlabel('Number of Disease Categories (k)')
     ax1.set_ylabel('Mantel r (with previous level)')
     ax1.set_title('Disease RDM Stability')
     ax1.set_ylim(-0.1, 1.05)
-    ax1.legend()
+    ax1.legend(loc='lower right')
     ax1.grid(True, alpha=0.3)
 
     # Mechanism stability
     x_m = mech_stab['k_to'].values
     y_m = mech_stab['mantel_r'].values
     ax2.plot(x_m, y_m, 's-', color='#4CAF50', linewidth=2, markersize=8)
-    ax2.axhline(y=0.9, color='gray', linestyle='--', alpha=0.5, label='r = 0.9 threshold')
     elbow_idx_m, elbow_k_m = find_elbow(x_m, y_m)
     ax2.axvline(x=elbow_k_m, color='red', linestyle=':', alpha=0.7, label=f'Elbow: k={elbow_k_m}')
     ax2.set_xlabel('Number of Mechanism Categories (k)')
     ax2.set_ylabel('Mantel r (with previous level)')
     ax2.set_title('Mechanism RDM Stability')
     ax2.set_ylim(-0.1, 1.05)
-    ax2.legend()
+    ax2.legend(loc='lower right')
     ax2.grid(True, alpha=0.3)
 
     plt.tight_layout()

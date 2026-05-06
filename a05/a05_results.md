@@ -20,10 +20,10 @@ Per-site contingency tables (disease x mechanism) reveal a specialist-generalist
 
 **Top-3 concentration** is the most intuitive metric: what percentage of a site's records fall into just 3 disease-mechanism cells?
 
-- **GV4 (62.1%)** is the tightest specialist. Nearly two-thirds of its research is concentrated in three combinations, dominated by Neurological x Neuroprotective. This site does one thing through one pathway.
+- **GV4 (62.1%)** is the tightest specialist. Nearly two-thirds of its research is concentrated in three combinations (Neurological × Neuroprotective 28%, Neurological × Autophagy/Mitophagy 17%, Neurological × Cell Survival/Apoptosis 17%). Nearly all bubbles are confined to the Neurological disease row, but they span multiple mechanism columns — a disease specialist that engages diverse pathways for a single condition.
 - **BL25 (50.0%)** is the second most concentrated, driven by Gastrointestinal x Gut-Brain/Enteric and Gastrointestinal x Autonomic/Neuroendocrine pairings.
 - **ST36 (19.5%)** is the broadest generalist. Its records distribute across 123 non-zero cells with no dominant pairing — no single disease-mechanism combination captures even 7% of its records.
-- **PC6 (26.5%)** is intermediate but interesting: it is a strong disease specialist (Cardiovascular) but uses multiple mechanisms (Inflammatory/Immune, Cell Survival/Apoptosis, Autonomic/Neuroendocrine). This dissociation — disease specialist but mechanism generalist — is visible in the bubble contingency plot (Fig 5, Panel B).
+- **PC6 (26.5%)** is intermediate but revealing: its top two cells are nearly tied across two disease rows — Cardiovascular × Inflammatory/Immune (10.8%) and Neurological × Inflammatory/Immune (10.2%). Unlike GV4, PC6 is not confined to a single disease row — it spreads across both disease and mechanism dimensions, making it the least concentrated among the disease-leaning sites.
 
 **NMI (Normalized Mutual Information)** measures how much knowing the disease category tells you about the mechanism category, and vice versa. High NMI means tight disease-mechanism coupling; low NMI means the two dimensions are relatively independent within that site. BL25 and LI4 have the highest NMI (0.31), while ST36 has the lowest (0.12). Notably, GV4 has low NMI (0.14) despite high top-3 concentration — this is because GV4's records are almost entirely Neurological, so there is little disease variation for NMI to correlate with.
 
@@ -84,11 +84,12 @@ Most disease RDMs are highly stable (r > 0.77). Mechanism RDMs show more sensiti
 
 **Panel A (left):** Bar chart showing top-3 concentration per site, ordered from highest (GV4, 62.1%) to lowest (ST36, 19.5%). This establishes the specialist-generalist continuum at a glance.
 
-**Panel B (right):** Bubble contingency plots for three exemplar sites — GV4 (Specialist), CV12 (Middle), ST36 (Generalist). Bubble size represents within-site percentage (not raw counts) so sites are comparable regardless of sample size. A shared size legend appears above the top panel.
+**Panel B (right):** Bubble contingency plots for four exemplar sites — GV4 (Specialist), CV12 (Middle), PC6 (Disease specialist), ST36 (Generalist). Bubble size represents within-site percentage (not raw counts) so sites are comparable regardless of sample size. A shared size legend appears above the top panel.
 
-- **GV4:** One dominant bubble (Neurological x Neuroprotective) and near-emptiness elsewhere — this site does one thing through one pathway.
-- **CV12:** A few mid-sized bubbles across several categories — more distributed but with some structure.
-- **ST36:** Many small bubbles scattered across the full 14x12 grid — no single disease-mechanism pairing dominates.
+- **GV4:** Nearly all bubbles confined to the Neurological row, but spanning multiple mechanism columns (Neuroprotective, Autophagy, Cell Survival) — disease specialist, mechanism generalist.
+- **CV12:** Bubbles spread across three disease rows (Metabolic/Endocrine, Neurological, GI) with no single dominant pairing — intermediate coupling.
+- **PC6:** Two disease rows nearly tied (Cardiovascular and Neurological), both channeling through Inflammatory/Immune — spread across both dimensions.
+- **ST36:** Many small bubbles scattered across the full grid — no single disease-mechanism pairing dominates (top cell only 8%).
 
 ## Outputs
 
@@ -104,7 +105,7 @@ Most disease RDMs are highly stable (r > 0.77). Mechanism RDMs show more sensiti
 
 1. **Sites vary along a specialist-generalist continuum.** GV4 concentrates 62% in 3 cells; ST36 spreads across 123 cells (19.5% in top 3). This is not just about disease profiles or mechanism profiles separately — it's about how tightly the two are linked within each site.
 
-2. **PC6 dissociates disease specialization from mechanism specialization.** Strong Cardiovascular disease concentration but diffuse mechanism profile — a disease specialist can be a mechanism generalist. This adds a dimension beyond the profile-level characterization in A03.
+2. **GV4 and PC6 both show mechanism generalism, but differ in disease concentration.** GV4 is locked to the Neurological row but engages multiple mechanisms. PC6 spreads across both dimensions — its top two cells span Cardiovascular and Neurological diseases, both channeling through Inflammatory/Immune. Disease specialization does not imply mechanism specialization.
 
 3. **The coupling pattern is not a tautology artifact.** Excluding definitionally overlapping disease-mechanism records preserves the specialist-generalist ranking. NMI changes by <12% for most sites.
 

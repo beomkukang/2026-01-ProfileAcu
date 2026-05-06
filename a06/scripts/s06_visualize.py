@@ -44,11 +44,26 @@ def get_cluster_colors(sites):
     return color_map, cluster_map
 
 
+# Per-site label offsets: (x_offset, y_offset) in points
+# Adjust these to avoid overlapping labels
+SITE_LABEL_OFFSETS = {
+    'Disease': {
+        'BL25': (20, -3), 'ST25': (20, 3), 'GV4': (0, -20), 'CV12': (0, -18),
+        'PC6': (0, 7), 'LI4': (3, -20), 'SP6': (0, 7), 'ST36': (0, 7),
+    },
+    'Mechanism': {
+        'BL25': (0, 10), 'ST25': (0, -18), 'GV4': (0, 10), 'CV12': (0, -18),
+        'PC6': (0, 7), 'LI4': (0, -20), 'SP6': (20, -5), 'ST36': (0, -20),
+    },
+}
+
+
 def plot_ca_biplot(ax, site_scores, cat_scores, sites, categories,
                    color_map, inertia, space_name, pairs=ANATOMICAL_PAIRS,
                    n_cat_labels=5, offset_overlap=True):
     """Plot CA biplot: sites (colored dots) + categories (triangles) + pair lines."""
     site_idx = {s: i for i, s in enumerate(sites)}
+    label_offsets = SITE_LABEL_OFFSETS.get(space_name, {})
 
     # Anatomical pair connections
     for s1, s2 in pairs:
@@ -96,9 +111,10 @@ def plot_ca_biplot(ax, site_scores, cat_scores, sites, categories,
         ax.scatter(site_scores[i, 0], site_scores[i, 1],
                    s=120, c=color, edgecolors='black', linewidth=0.8,
                    zorder=5)
+        offset = label_offsets.get(site, (0, 7))
         ax.annotate(site, (site_scores[i, 0], site_scores[i, 1]),
                     fontsize=9, fontweight='bold', ha='center', va='bottom',
-                    xytext=(0, 7), textcoords='offset points', zorder=6)
+                    xytext=offset, textcoords='offset points', zorder=6)
 
     # Axes
     ax.set_xlabel(f"Dimension 1 ({inertia[0]*100:.1f}% inertia)", fontsize=11)
@@ -201,10 +217,10 @@ def main():
                        markersize=8, alpha=0.6, label='Category position'),
     ]
     fig.legend(handles=legend_handles, loc='lower center', ncol=5, fontsize=9,
-               bbox_to_anchor=(0.5, -0.06), columnspacing=2.0, handletextpad=0.8)
+               bbox_to_anchor=(0.5, -0.05), columnspacing=2.0, handletextpad=0.8)
 
     plt.tight_layout()
-    plt.subplots_adjust(bottom=0.15)
+    plt.subplots_adjust(bottom=0.10)
     fig_path = os.path.join(FIG_DIR, 'fig6_embeddings.png')
     fig.savefig(fig_path, dpi=150, bbox_inches='tight')
     plt.close(fig)
@@ -219,18 +235,51 @@ def main():
         print("Warning: bootstrap_ellipses.pkl not found. Supplementary plots without ellipses.")
         ellipses = None
 
-    # --- Supplementary: MDS plots with bootstrap ellipses ---
-    for space, dim1, dim2, ell_key in [
-        ('Disease', 'disease_dim1', 'disease_dim2', 'disease'),
-        ('Mechanism', 'mechanism_dim1', 'mechanism_dim2', 'mechanism'),
+    # Load PCA data
+    pca_coords = pd.read_csv(os.path.join(OUTPUT_DIR, 'pca_coordinates.csv'))
+    pca_var = pd.read_csv(os.path.join(OUTPUT_DIR, 'pca_variance.csv'))
+
+    # --- Supplementary: S1 (Disease: MDS + PCA) and S2 (Mechanism: MDS + PCA) ---
+    for space, mds_dim1, mds_dim2, ell_key, pca_dim1, pca_dim2, var_col, fig_label in [
+        ('Disease', 'disease_dim1', 'disease_dim2', 'disease',
+         'disease_pc1', 'disease_pc2', 'disease_var_explained', 'S1'),
+        ('Mechanism', 'mechanism_dim1', 'mechanism_dim2', 'mechanism',
+         'mechanism_pc1', 'mechanism_pc2', 'mechanism_var_explained', 'S2'),
     ]:
-        fig, ax = plt.subplots(1, 1, figsize=(7, 6))
-        coords = mds_coords[[dim1, dim2]].values
+        fig, (ax_a, ax_b) = plt.subplots(1, 2, figsize=(14, 6))
+
+        # Panel A: MDS with bootstrap ellipses
+        mds_xy = mds_coords[[mds_dim1, mds_dim2]].values
         ell_data = ellipses[ell_key] if ellipses else None
-        plot_mds(ax, coords, sites, color_map, space, ellipses_data=ell_data)
+        plot_mds(ax_a, mds_xy, sites, color_map, space, ellipses_data=ell_data)
+        ax_a.set_title(f"(A) {space} Space (MDS)", fontsize=13, fontweight='bold')
+
+        # Panel B: PCA
+        pca_xy = pca_coords[[pca_dim1, pca_dim2]].values
+        site_idx_pca = {s: i for i, s in enumerate(sites)}
+        for s1, s2 in ANATOMICAL_PAIRS:
+            if s1 in site_idx_pca and s2 in site_idx_pca:
+                i1, i2 = site_idx_pca[s1], site_idx_pca[s2]
+                ax_b.plot([pca_xy[i1, 0], pca_xy[i2, 0]],
+                          [pca_xy[i1, 1], pca_xy[i2, 1]],
+                          '--', color='gray', alpha=0.5, linewidth=1, zorder=1)
+        for i, site in enumerate(sites):
+            color = color_map.get(site, '#7f7f7f')
+            ax_b.scatter(pca_xy[i, 0], pca_xy[i, 1],
+                         s=120, c=color, edgecolors='black', linewidth=0.8, zorder=4)
+            ax_b.annotate(site, (pca_xy[i, 0], pca_xy[i, 1]),
+                          fontsize=9, fontweight='bold', ha='center', va='bottom',
+                          xytext=(0, 7), textcoords='offset points')
+        var1 = pca_var[var_col].iloc[0] * 100
+        var2 = pca_var[var_col].iloc[1] * 100
+        ax_b.set_xlabel(f"PC1 ({var1:.1f}% variance)", fontsize=11)
+        ax_b.set_ylabel(f"PC2 ({var2:.1f}% variance)", fontsize=11)
+        ax_b.set_title(f"(B) {space} Space (PCA)", fontsize=13, fontweight='bold')
+        ax_b.axhline(0, color='lightgray', linewidth=0.5, zorder=0)
+        ax_b.axvline(0, color='lightgray', linewidth=0.5, zorder=0)
+
         plt.tight_layout()
-        suffix = 'S1_alt_disease' if space == 'Disease' else 'S2_alt_mechanism'
-        fig_path = os.path.join(FIG_DIR, f'fig{suffix}.png')
+        fig_path = os.path.join(FIG_DIR, f'fig{fig_label}_alt_{space.lower()}.png')
         fig.savefig(fig_path, dpi=150, bbox_inches='tight')
         plt.close(fig)
         print(f"Saved: {fig_path}")

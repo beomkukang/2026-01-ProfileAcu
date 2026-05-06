@@ -23,7 +23,7 @@ os.makedirs(FIG_DIR, exist_ok=True)
 # Sites and anatomical pairs
 SITES = ['BL25', 'GV4', 'ST25', 'CV12', 'PC6', 'LI4', 'SP6', 'ST36']
 ANATOMICAL_PAIRS = [('BL25', 'GV4'), ('ST25', 'CV12'), ('PC6', 'LI4'), ('SP6', 'ST36')]
-LABEL_PAIRS = ['BL25-GV4', 'BL25-ST25', 'ST25-CV12']
+LABEL_PAIRS = ['BL25-GV4', 'BL25-ST25', 'GV4-LI4', 'BL25-PC6']
 
 
 def load_rdm(path):
@@ -88,13 +88,13 @@ def main():
             'x': surface_vec, 'y': disease_vec,
             'xlabel': 'Surface Body Distance', 'ylabel': 'Disease Distance',
             'title': 'Surface vs Disease',
-            'test_name': 'Disease vs Surface'
+            'test_name': 'Disease vs Surface Somatotopic'
         },
         {
             'x': surface_vec, 'y': mechanism_vec,
             'xlabel': 'Surface Body Distance', 'ylabel': 'Mechanism Distance',
             'title': 'Surface vs Mechanism',
-            'test_name': 'Mechanism vs Surface'
+            'test_name': 'Mechanism vs Surface Somatotopic'
         },
     ]
 
@@ -132,20 +132,19 @@ def main():
 
         # Significance-dependent decoration
         if is_sig:
-            # Add regression trend line
+            # Regression trend line with confidence envelope
             sns.regplot(x=x, y=y, ax=ax, scatter=False,
-                       color='gray', line_kws={'linewidth': 2, 'linestyle': '--'})
+                       color='#4CAF50', line_kws={'linewidth': 2, 'linestyle': '--'},
+                       label='95% regression CI')
+            ax.legend(fontsize=8, loc='lower right')
         else:
-            # Add shaded 95% CI from permutation null
+            # 95% null CI band (non-significant panels only)
             np.random.seed(42)
             n = disease_rdm.shape[0]
             null_corrs = []
             for _ in range(10000):
                 perm_idx = np.random.permutation(n)
-                # Permute y-variable RDM
-                if ax_idx == 0:
-                    rdm_to_perm = mechanism_rdm
-                elif ax_idx == 1:
+                if ax_idx == 1:
                     rdm_to_perm = disease_rdm
                 else:
                     rdm_to_perm = mechanism_rdm
@@ -156,8 +155,6 @@ def main():
 
             ci_low = np.percentile(null_corrs, 2.5)
             ci_high = np.percentile(null_corrs, 97.5)
-            ax.axhspan(ax.get_ylim()[0], ax.get_ylim()[1], alpha=0.0)  # force ylim
-            # Convert r-based CI to a horizontal band (visual indication)
             y_mean = np.mean(y)
             y_std = np.std(y)
             ax.axhline(y_mean, color='gray', linestyle=':', alpha=0.5)
@@ -165,7 +162,7 @@ def main():
                           y_mean + ci_low * y_std,
                           y_mean + ci_high * y_std,
                           alpha=0.15, color='gray', label='95% null CI')
-            ax.legend(fontsize=8, loc='upper right')
+            ax.legend(fontsize=8, loc='lower right')
 
         # Annotation with r and p
         p_str = f"p={p_val:.4f}" if p_val >= 0.0001 else "p<0.0001"

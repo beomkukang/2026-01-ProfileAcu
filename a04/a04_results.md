@@ -44,7 +44,13 @@ Representational similarity analysis compared disease, mechanism, and somatotopi
 
 Three panels plotting the 28 pairwise distances from one RDM against another.
 
-**Left panel (Disease vs Mechanism):** Shows the significant positive correlation (r=0.426, p=0.032). A regression trend line with 95% CI band is displayed. Key pairs: BL25–ST25 sits in the lower-left (close in both spaces — GI convergence), BL25–GV4 sits in the upper-right (far in both spaces — maximally divergent in disease, substantially divergent in mechanism). Anatomical pairs (red dots) are scattered throughout — they do not cluster in any region, confirming that anatomical proximity does not predict functional similarity.
+**Left panel (Disease vs Mechanism):** Shows the significant positive correlation (r=0.426, p=0.032). A regression trend line with 95% CI band is displayed. Key labeled pairs illustrate the trend and its nuances:
+- **BL25–ST25** (0.079, 0.065): bottom-left — close in both spaces, confirming GI convergence.
+- **BL25–GV4** (0.993, 0.726): top-right — far in both spaces, the anchoring extreme.
+- **GV4–LI4** (0.102, 0.414): departs from the trend — very similar disease profiles (both Neurological-leaning) but substantially different mechanisms, showing that disease similarity does not guarantee mechanism similarity.
+- **BL25–PC6** (0.850, 0.177): also departs — very different diseases but similar mechanisms, illustrating mechanism compression (disease-divergent sites can share biological pathways).
+
+Anatomical pairs (red dots) are scattered throughout — they do not cluster in any region, confirming that anatomical proximity does not predict functional similarity.
 
 **Middle panel (Surface vs Disease):** A flat scatter cloud with no trend (r=-0.026, p=1.000). The shaded band shows the 95% null CI from 10,000 permutations — the observed points fall entirely within it. ST25–CV12 and BL25–ST25 are labeled: both have moderate surface distances but very different disease distances (BL25–ST25 is disease-close at 0.079, ST25–CV12 is disease-distant). This panel demonstrates confirmed absence rather than failed detection.
 

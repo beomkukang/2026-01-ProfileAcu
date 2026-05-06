@@ -98,7 +98,7 @@ def plot_panel_a(ax, metrics, colors):
     ax.set_xticklabels(metrics_sorted['site'], rotation=0, fontsize=9)
     ax.set_ylabel('% in top 3 cells', fontsize=10)
     ax.set_xlabel('Acupoint', fontsize=10)
-    ax.set_title('A) Top-3 Cell Concentration', fontsize=11, fontweight='bold', loc='left')
+    ax.set_title('(A) Top-3 Cell Concentration', fontsize=11, fontweight='bold', loc='left')
     ax.spines['top'].set_visible(False)
     ax.spines['right'].set_visible(False)
     ax.set_ylim(0, max(metrics_sorted['top3_concentration']) * 1.15)
@@ -155,10 +155,10 @@ def plot_bubble(ax, ct, title, max_pct):
 
 
 def plot_panel_b(axes, metrics, contingency_tables):
-    """Panel B: 3 bubble plots for specialist, middle, generalist."""
+    """Panel B: 4 bubble plots for specialist, middle, PC6, generalist."""
     metrics_sorted = metrics.sort_values('top3_concentration', ascending=False).reset_index(drop=True)
 
-    # Pick top (specialist), middle, bottom (generalist)
+    # Pick top (specialist), middle, PC6 (disease specialist / mechanism generalist), bottom (generalist)
     n = len(metrics_sorted)
     specialist_site = metrics_sorted.iloc[0]['site']
     middle_site = metrics_sorted.iloc[n // 2]['site']
@@ -167,6 +167,7 @@ def plot_panel_b(axes, metrics, contingency_tables):
     selected = [
         (specialist_site, 'Specialist'),
         (middle_site, 'Middle'),
+        ('PC6', 'Disease specialist'),
         (generalist_site, 'Generalist'),
     ]
 
@@ -192,7 +193,8 @@ def plot_panel_b(axes, metrics, contingency_tables):
         if site in contingency_tables:
             ct = contingency_tables[site]
             top3_val = metrics[metrics['site'] == site]['top3_concentration'].values[0]
-            title = f'{site} ({label}, top3={top3_val:.1f}%)'
+            prefix = '(B) ' if i == 0 else ''
+            title = f'{prefix}{site} ({label}, top3={top3_val:.1f}%)'
             plot_bubble(axes[i], ct, title, max_pct)
         else:
             axes[i].set_title(f'{site} — no data')
@@ -222,24 +224,23 @@ def main():
     metrics, contingency_tables, cluster_labels = load_inputs()
     colors = get_cluster_colors(metrics, cluster_labels)
 
-    # Create figure with GridSpec
-    fig = plt.figure(figsize=(16, 14), dpi=150)
-    gs = gridspec.GridSpec(3, 2, width_ratios=[0.4, 0.6], hspace=0.7, wspace=0.35)
+    # Create figure with GridSpec: 3 columns (bar chart | 2 bubbles | 2 bubbles)
+    fig = plt.figure(figsize=(22, 12), dpi=150)
+    gs = gridspec.GridSpec(2, 3, width_ratios=[0.3, 0.35, 0.35], hspace=0.5, wspace=0.35)
 
-    # Panel A: left column, spanning all 3 rows
+    # Panel A: left column, spanning both rows
     ax_a = fig.add_subplot(gs[:, 0])
     plot_panel_a(ax_a, metrics, colors)
 
-    # Panel B: right column, 3 subplots stacked vertically
-    ax_b1 = fig.add_subplot(gs[0, 1])
-    ax_b2 = fig.add_subplot(gs[1, 1])
-    ax_b3 = fig.add_subplot(gs[2, 1])
-    axes_b = [ax_b1, ax_b2, ax_b3]
+    # Panel B: 4 bubble plots in a 2x2 grid (columns 2-3)
+    ax_b1 = fig.add_subplot(gs[0, 1])  # specialist (top-left)
+    ax_b2 = fig.add_subplot(gs[1, 1])  # middle (bottom-left)
+    ax_b3 = fig.add_subplot(gs[0, 2])  # PC6 (top-right)
+    ax_b4 = fig.add_subplot(gs[1, 2])  # generalist (bottom-right)
+    axes_b = [ax_b1, ax_b2, ax_b3, ax_b4]
 
     plot_panel_b(axes_b, metrics, contingency_tables)
 
-    # Overall title
-    fig.suptitle('Figure 5: Disease-Mechanism Coupling', fontsize=13, fontweight='bold', y=0.98)
 
     # Save
     fig_path = os.path.join(FIG_DIR, 'fig5_coupling.png')

@@ -42,21 +42,21 @@ Inbred/outbred rat strains (SD, Wistar) offer minimal inter-individual anatomica
 
 ### Main Figures (6)
 
-| Fig | Content                                                | Source       |
-| --- | ------------------------------------------------------ | ------------ |
-| 1   | Study design + three-space conceptual diagram          | A02 + manual |
-| 2   | BF heatmap (disease + mechanism enrichment)            | A03          |
-| 3   | Three RDMs (disease, mechanism, somatotopic)           | A03 + A02    |
-| 4   | RSA scatterplots (3 RDM-to-RDM comparisons)            | A04          |
-| 5   | Disease–mechanism coupling (bars + bubble contingency) | A05          |
-| 6   | Low-dimensional embeddings (disease + mechanism space) | A06          |
+| Fig | Title                                                                          | Content                                                | Source       |
+| --- | ------------------------------------------------------------------------------ | ------------------------------------------------------ | ------------ |
+| 1   | Study design and three-space representational framework                        | Study design + three-space conceptual diagram          | A02 + manual |
+| 2   | Disease and mechanism enrichment profiles across eight stimulation sites       | BF heatmap (disease + mechanism enrichment)            | A03          |
+| 3   | Representational dissimilarity matrices for disease, mechanism, and body space | Three RDMs (disease, mechanism, body space)            | A03 + A02    |
+| 4   | Representational similarity analysis across three spaces                       | RSA scatterplots (3 RDM-to-RDM comparisons)            | A04          |
+| 5   | Disease–mechanism coupling along a specialist–generalist continuum             | Disease–mechanism coupling (bars + bubble contingency) | A05          |
+| 6   | Low-dimensional embedding of disease and mechanism space                       | CA biplots (disease + mechanism space)                 | A06          |
 
 ### Main Tables (4)
 
 | Table | Content                                                                | Source           |
 | ----- | ---------------------------------------------------------------------- | ---------------- |
 | 1     | Acupoint characteristics: meridian, location, indication, record count | Literature + A01 |
-| 2     | Somatotopic coordinates (x,y,z) + spinal segmental innervation         | A02              |
+| 2     | body space coordinates and spinal segmental innervation                | A02              |
 | 3     | Disease and mechanism distributions: counts and % for all 8 sites      | A03              |
 | 4     | Predicted dissociations for key pairs + Mantel/partial Mantel results  | A04              |
 
@@ -284,9 +284,10 @@ _Tautology check (s02):_ Some disease–mechanism pairs overlap definitionally (
 
 **Key expected findings:**
 
-- GV4: highest coupling (specialist) — most records in Neurological × Neuroprotective
-- ST36: lowest coupling (generalist) — records spread across many cells
-- PC6: intermediate — concentrated in Cardiovascular disease but using multiple mechanism types
+- GV4: highest concentration (62%) — nearly all bubbles in the Neurological row, but spanning multiple mechanism columns (Neuroprotective 28%, Autophagy 17%, Cell Survival 17%). Disease specialist, mechanism generalist.
+- ST36: lowest concentration (19.5%) — records spread across 123 cells, top cell only 8%. Broadest generalist.
+- PC6: two disease rows nearly tied (Cardiovascular 10.8%, Neurological 10.2%), both channeling through Inflammatory/Immune — spread across both dimensions.
+- CV12: three competing disease rows (Metabolic, Neurological, GI) — intermediate coupling.
 - This establishes a specialist–generalist continuum that adds a dimension beyond the profile-level characterization in A03
 
 **Outputs:** contingency_tables.pkl, coupling_metrics.csv, tautology_check.csv → Fig 5, Table S4.
@@ -344,6 +345,8 @@ _"Other" inclusion (s05):_ In the main analysis, records classified as "Other" a
 
 _Publication-level collapsing (s06):_ Some PMIDs appear multiple times within a site (same study, multiple records). Collapse to one record per PMID per site (majority-vote category), recompute everything. Tests whether the findings reflect genuine research diversity or lab-clustering artifacts.
 
+_Subsample coupling (s08):_ The specialist–generalist continuum (A05) could be confounded with sample size — sites with more records mechanically spread across more cells, lowering top-3 concentration. All sites are subsampled to n=22, top-3 concentration is recomputed, and the process is repeated 1,000 times. Tests whether the ranking is a sample size artifact.
+
 **Key expected findings:**
 
 - Leave-one-out: Mantel r should remain positive across all 8 exclusions (no single site drives convergence)
@@ -351,8 +354,9 @@ _Publication-level collapsing (s06):_ Some PMIDs appear multiple times within a 
 - Subsample: Mantel r should remain positive, though possibly not significant at n=22 (expected — power is low with only 7×7/2=21 pairs)
 - Coordinate perturbation: >95% of iterations should show non-significant somatotopic–disease and somatotopic–mechanism Mantel tests
 - "Other" inclusion and publication collapsing should not qualitatively change the Mantel result
+- Subsample coupling: GV4 remains the most concentrated and ST36/SP6 the least at equal n=22, but the spread compresses from 42.6 to 30.6 percentage points. The qualitative ranking holds; the quantitative gap is inflated by unequal sample sizes.
 
-**Outputs:** loo_results.csv, bootstrap CI, subsample results, perturbation results, other_inclusion, pub_collapse → Table S5, Fig S3, S5–S7.
+**Outputs:** loo_results.csv, bootstrap CI, subsample results, perturbation results, other_inclusion, pub_collapse, subsample_coupling.csv → Table S5, Fig S3, S5–S7.
 
 ---
 
@@ -465,7 +469,8 @@ Sites vary in how concentrated their research is. A specialist site (GV4) has mo
 
 | #     | Content                                                             | What it proves                                                    |
 | ----- | ------------------------------------------------------------------- | ----------------------------------------------------------------- |
-| S1–S2 | CA biplots or MDS (whichever isn't main) for disease and mechanism  | Low-dimensional structure is method-independent                   |
+| S1    | Disease space: (A) MDS with bootstrap ellipses, (B) PCA            | Low-dimensional structure is method-independent                   |
+| S2    | Mechanism space: (A) MDS with bootstrap ellipses, (B) PCA          | Mechanism compression confirmed across embedding methods          |
 | S3    | Coordinate perturbation: Mantel p-values across 1,000 jittered sets | Null somatotopic result holds under coordinate uncertainty        |
 | S4    | GV4-exclusion: embeddings recomputed without extreme site           | Cluster structure survives strongest single-domain signal removal |
 | S5    | Leave-one-out: disease–mechanism Mantel r across 8 exclusions       | No single site drives the convergence finding                     |

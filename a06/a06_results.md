@@ -109,19 +109,19 @@ Two-panel CA biplot — disease space (left) and mechanism space (right). Each p
 
 **What to look for:** (1) The GI pair (green, BL25/ST25) clusters tightly in both panels but in different regions — upper-left in disease, right side in mechanism. (2) PC6 (red) shifts from far-right isolation in disease space to the central cluster in mechanism space. (3) Dashed anatomical pair lines cross cluster boundaries — no pair stays together. (4) Disease space shows wide spread; mechanism space shows compression toward the origin.
 
-### Fig S1: MDS Disease Space (Supplementary)
-Single-panel MDS embedding of disease space with bootstrap 95% confidence ellipses. Each ellipse shows the uncertainty in that site's position from 1,000 bootstrap iterations (resample records within each site, recompute profiles and RDM, fit MDS, Procrustes-align to original).
+### Fig S1: Disease Space — Alternative Embeddings
+Two-panel figure: (A) MDS with bootstrap 95% confidence ellipses, (B) PCA.
 
-**Ellipse sizes reflect sample size:** BL25 (n=22) and GV4 (n=29) have moderate ellipses but are still well-separated from each other. ST36 (n=1,079) has a small, tight ellipse — its position is stable. CV12 has the largest disease-space ellipse (width=0.61), reflecting both its moderate sample size (n=65) and its intermediate profile that is sensitive to resampling.
+**Panel A (MDS):** Each ellipse shows the uncertainty in that site's position from 1,000 bootstrap iterations. BL25/ST25 (green) cluster together in the upper-right, with ellipses overlapping each other but not with other clusters. PC6 (red) is isolated on the far left. GV4 and LI4 are close in the lower-left. Anatomical pair lines cross cluster boundaries. Despite ellipse overlap in the broad cluster, the GI pair and CV outlier are well-resolved.
 
-**Key observation:** Despite the ellipses, the cluster structure is preserved — BL25/ST25 ellipses overlap with each other but not with the PC6 or GV4/LI4 ellipses. The GI pair's proximity is stable under resampling.
+**Panel B (PCA):** PC1 (63.6% variance) separates Neurological (GV4, far right) from Gastrointestinal (BL25/ST25, left). PC2 (16.8%) separates the GI pair (upper) from SP6/PC6 (lower). GV4-LI4, which are close in MDS, diverge in PCA — PC1's Neurological-vs-GI axis separates them more. The overall cluster structure is consistent with both MDS and CA, confirming method-independence.
 
-### Fig S2: MDS Mechanism Space (Supplementary)
-Single-panel MDS embedding of mechanism space with bootstrap 95% confidence ellipses. The visual compression is dramatic — most sites and their ellipses overlap near the center.
+### Fig S2: Mechanism Space — Alternative Embeddings
+Two-panel figure: (A) MDS with bootstrap 95% confidence ellipses, (B) PCA.
 
-**Ellipse sizes:** ST36 has the tightest ellipse (width=0.099) — its mechanism profile is extremely stable with 1,079 records. GV4's ellipse is the largest (width=0.386) and clearly separated from the central cluster, confirming that its mechanism-outlier status is genuine. BL25 and ST25 have large overlapping ellipses in the lower-left, partially separated from the central cluster but not fully resolved — their GI mechanism identity is real but less sharply defined than in disease space.
+**Panel A (MDS):** Most sites and their ellipses overlap near the center — SP6, ST36, PC6 are nearly on top of each other. GV4 is the sole outlier (upper-right), with its ellipse clearly separated. BL25/ST25 (green) sit slightly apart from the central cluster, retaining some GI mechanism identity. The bootstrap ellipses confirm that central-cluster sites are statistically indistinguishable in mechanism space.
 
-**Key observation:** The mechanism-space ellipses overlap heavily for the central sites (PC6, LI4, SP6, ST36), confirming that their mechanism profiles are not meaningfully distinguishable. This is the bootstrap-level confirmation of mechanism compression — these sites are not just close in the point estimate, they are statistically indistinguishable in mechanism space.
+**Panel B (PCA):** PC1 (65.1% variance) separates GV4 (Neuroprotective-dominant, far right) from all other sites. SP6/ST36 overlap. BL25/ST25 retain slight separation (upper-left). PC6 shifts from disease-space outlier to the central cluster — the space-shifting effect is confirmed across all three methods (CA, MDS, PCA). The compression is even more apparent than in MDS — most sites collapse near the origin.
 
 ### Fig S4: GV4 Exclusion CA Biplots (Supplementary)
 Two-panel CA biplot after removing GV4 from the dataset. Disease space (left) shows the same structure as Fig 6 — BL25/ST25 in the upper-left near Gastrointestinal, PC6 isolated on the right near Cardiovascular, remaining sites in the center. The dashed pair lines for ST25–CV12, PC6–LI4, and SP6–ST36 still cross cluster boundaries. Mechanism space (right) redistributes without GV4's dominant pull — BL25 moves to the upper-left, CV12 drops to the bottom near Metabolic Pathway. The broad-cluster sites (LI4, SP6, ST36, PC6) group on the right side.
@@ -147,8 +147,8 @@ Two-panel CA biplot after removing GV4 from the dataset. Disease space (left) sh
 | `results/datatables/gv4_exclusion_ca_disease_cat.csv` | CA disease category coordinates (GV4 excluded) |
 | `results/datatables/gv4_exclusion_ca_mechanism_cat.csv` | CA mechanism category coordinates (GV4 excluded) |
 | `results/figures/fig6_embeddings.png` | Main Figure 6: CA biplots |
-| `results/figures/figS1_alt_disease.png` | Supplementary: MDS disease with bootstrap ellipses |
-| `results/figures/figS2_alt_mechanism.png` | Supplementary: MDS mechanism with bootstrap ellipses |
+| `results/figures/figS1_alt_disease.png` | Supplementary Fig S1: Disease space — (A) MDS with bootstrap ellipses, (B) PCA |
+| `results/figures/figS2_alt_mechanism.png` | Supplementary Fig S2: Mechanism space — (A) MDS with bootstrap ellipses, (B) PCA |
 | `results/figures/figS4_gv4_exclusion.png` | Supplementary: CA biplots with GV4 excluded |
 
 ## Key Takeaways for the Manuscript

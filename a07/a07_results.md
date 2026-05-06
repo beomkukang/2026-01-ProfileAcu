@@ -101,6 +101,25 @@ Sites with high PMID overlap (e.g., SP6–ST36 sharing 67.5% of records) could h
 
 **Interpretation:** No records were actually collapsed — the PMID overlap flagged in A03 exists at the study level but does not produce duplicate records in the combined dataset. Each row in `combined_data.csv` is already unique (one PMID × one site × one disease × one mechanism). The "overlap" means the same study tested multiple sites, but each site's entry is independent. The Mantel test result is unchanged.
 
+## 7. Subsample Sensitivity for Top-3 Concentration Ranking
+
+The specialist-generalist continuum (A05) could be confounded with sample size — sites with more records mechanically spread across more cells, lowering concentration. To test this, all sites were subsampled to n=22 (BL25's count), top-3 concentration was recomputed, and the process was repeated 1,000 times.
+
+| Site | Original n | Original top-3 | Subsampled mean ± SD | 95% CI |
+|------|-----------|----------------|---------------------|--------|
+| GV4 | 29 | 62.1% | 62.5% ± 4.9% | 54.6–72.7% |
+| BL25 | 22 | 50.0% | 50.0% ± 0.0% | 50.0–50.0% |
+| ST25 | 88 | 37.5% | 42.8% ± 7.4% | 27.3–59.1% |
+| LI4 | 110 | 34.5% | 40.9% ± 7.6% | 27.3–54.7% |
+| PC6 | 166 | 26.5% | 36.1% ± 6.6% | 27.3–50.0% |
+| CV12 | 65 | 29.2% | 35.0% ± 5.8% | 27.3–45.5% |
+| SP6 | 271 | 20.7% | 32.4% ± 5.9% | 22.7–45.5% |
+| ST36 | 1,079 | 19.5% | 31.9% ± 6.1% | 22.7–45.5% |
+
+**Interpretation:** The ranking is largely preserved — GV4 remains the most concentrated and ST36/SP6 remain the least, even at equal sample sizes. However, the gap compresses substantially: the original spread of 62.1% → 19.5% (42.6 percentage points) narrows to 62.5% → 31.9% (30.6 points). The most affected sites are those with the largest original sample sizes (ST36: 19.5% → 31.9%, SP6: 20.7% → 32.4%) — their low original concentrations were partly a sample-size artifact. The middle sites (ST25, LI4, PC6, CV12) converge to a narrow band (35–43%), making their relative ordering less stable.
+
+**Conclusion:** GV4's specialist status and the specialist-generalist continuum are robust to sample size equalization, but the magnitude of the spread is inflated by unequal sample sizes. The qualitative finding (sites differ in coupling tightness) holds; the quantitative ranking in the middle of the continuum should be interpreted cautiously.
+
 ## Figure Descriptions
 
 ### Fig S3: Coordinate Perturbation (p-value Distribution)
@@ -138,6 +157,7 @@ Two-panel heatmap comparing disease profiles before and after PMID collapsing. T
 | `results/datatables/other_inclusion.csv` | Mantel test with "Other" category included |
 | `results/datatables/pub_collapse.csv` | Record counts before/after PMID collapsing |
 | `results/datatables/pub_collapse_mantel.csv` | Mantel test after publication collapsing |
+| `results/datatables/subsample_coupling.csv` | Subsample top-3 concentration (1,000 iterations) |
 | `results/datatables/tableS5_sensitivity.csv` | Combined sensitivity summary table |
 | `results/figures/figS3_perturbation.png` | Coordinate perturbation p-value histogram |
 | `results/figures/figS5_loo.png` | Leave-one-out bar plot |
@@ -155,3 +175,5 @@ Two-panel heatmap comparing disease profiles before and after PMID collapsing. T
 4. **No single site drives the result.** The LOO analysis shows the coupling is distributed across multiple sites. GV4 and PC6 are leveraging outliers — removing either increases the correlation. BL25 and ST36 contribute most to the coupling signal.
 
 5. **Publication overlap is not a confound.** The PMID overlap flagged in A03 does not produce duplicate records. Collapsing has zero effect on the results.
+
+6. **The specialist-generalist continuum is qualitatively robust but quantitatively inflated.** At equal n=22, GV4 remains the top specialist and ST36/SP6 remain the most generalist, but the spread compresses from 42.6 to 30.6 percentage points. The middle-ranking sites (ST25, LI4, PC6, CV12) converge to a narrow band.
